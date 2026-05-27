@@ -84,7 +84,7 @@ body{overflow:hidden}
 .mblock:hover .bstar{opacity:1}
 .bstar.on{color:var(--amber)!important;opacity:1!important}
 /* mobile: always show star */
-.mob-meal{border-radius:0 8px 8px 0;padding:9px 12px;font-size:13px;line-height:1.4;border-left:3px solid transparent;cursor:pointer;min-height:36px;display:flex;align-items:center;justify-content:space-between;gap:6px}
+.mob-meal{border-radius:0 8px 8px 0;padding:9px 12px;font-size:13px;line-height:1.4;border-left:3px solid transparent;cursor:pointer;min-height:36px;display:flex;align-items:center;justify-content:space-between;gap:6px;touch-action:none}
 .mob-meal .btxt{flex:1;min-width:0}
 .mob-bstar{background:none;border:none;cursor:pointer;font-size:16px;line-height:1;padding:0 2px;color:rgba(0,0,0,.18);flex-shrink:0;touch-action:manipulation}
 .mob-bstar.on{color:var(--amber)!important}
@@ -197,6 +197,9 @@ body{overflow:hidden}
 .shop-row.done .sname{text-decoration:line-through;color:var(--hint)}
 .store-badge{font-size:11px;padding:3px 9px;border-radius:12px;background:var(--bg2);color:var(--muted);cursor:pointer;white-space:nowrap;border:0.5px solid var(--border)}
 .store-badge.set{background:#D9EAD3;color:#274E13;border-color:#93C47D}
+.shop-edit-btn{background:none;border:none;font-size:13px;cursor:pointer;padding:0 2px;opacity:0.4;flex-shrink:0}
+.shop-edit-btn:hover{opacity:1}
+@media(max-width:767px){.shop-edit-btn{opacity:0.6}}
 
 /* ── IDEAS ── */
 .ideas-wrap{display:flex;flex-direction:column;height:100%}
@@ -738,12 +741,36 @@ function renderShop(){
     h+=`<div class="shop-cat-hd">${cat.cat}</div>`;
     cat.items.forEach((it,ii)=>{
       if(activeStore!=='Todas'&&it.store!==activeStore)return;
-      h+=`<div class="shop-row ${it.checked?'done':''}" data-cb="${ci}_${ii}"><input type="checkbox" ${it.checked?'checked':''}><span class="sname">${it.n}</span><span class="store-badge ${it.store?'set':''}" data-store-ci="${ci}" data-store-ii="${ii}">${it.store||'+ tienda'}</span></div>`;
+      h+=`<div class="shop-row ${it.checked?'done':''}" data-cb="${ci}_${ii}">
+        <input type="checkbox" ${it.checked?'checked':''}>
+        <span class="sname">${it.n}</span>
+        <span class="store-badge ${it.store?'set':''}" data-store-ci="${ci}" data-store-ii="${ii}">${it.store||'+ tienda'}</span>
+        <button class="shop-edit-btn" data-edit-ci="${ci}" data-edit-ii="${ii}" aria-label="editar">✏️</button>
+      </div>`;
     });
   });
   h+=`</div></div></div>`;return h;
 }
-function openStorePicker(ci,ii){
+function openShopItemEdit(ci,ii){
+  const it=shopItems[ci].items[ii];
+  const allStores=["Sin tienda",...stores];
+  let h=`<div class="sheet-ov" id="sheet-ov"><div class="sheet">
+    <div class="sheet-hdr"><span class="sheet-title">Editar producto</span><button class="sheet-close" data-close-sheet>×</button></div>
+    <input class="add-in" id="shop-edit-in" value="${it.n}" placeholder="Nombre del producto..." style="width:100%;margin-bottom:12px">
+    <div style="font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:8px">Tienda</div>`;
+  allStores.forEach(s=>{
+    h+=`<div class="store-opt" data-pick-store-edit="${ci}_${ii}_${s}">${s==='Sin tienda'?'Sin tienda':s}${it.store===s||(!it.store&&s==='Sin tienda')?'<span class="chk">✓</span>':''}</div>`;
+  });
+  h+=`<div class="new-store-row"><input class="ns-in" id="ns-in" placeholder="Nuevo establecimiento..."><button class="ns-btn" id="ns-btn">Añadir</button></div>
+    <div style="display:flex;gap:8px;margin-top:16px">
+      <button class="btn-danger" id="shop-item-del" data-del-ci="${ci}" data-del-ii="${ii}">Eliminar</button>
+      <button class="btn-pri" id="shop-item-save" data-save-ci="${ci}" data-save-ii="${ii}" style="flex:1">Guardar nombre</button>
+    </div>
+  </div></div>`;
+  document.getElementById('main').insertAdjacentHTML('beforeend',h);
+  document.getElementById('shop-edit-in').focus();
+  document.getElementById('shop-edit-in').select();
+}
   pendingStore={ci,ii};const cur=shopItems[ci].items[ii].store;
   let h=`<div class="sheet-ov" id="sheet-ov"><div class="sheet"><div class="sheet-hdr"><span class="sheet-title">¿Dónde se compra?</span><button class="sheet-close" data-close-sheet>×</button></div>`;
   stores.forEach(s=>{h+=`<div class="store-opt" data-pick-store="${s}">${s}${cur===s?'<span class="chk">✓</span>':''}</div>`;});
@@ -1076,6 +1103,28 @@ document.getElementById('main').addEventListener('click',e=>{
   if(e.target.classList.contains('ov')){closeOv();return;}
   const star=e.target.closest('[data-star]');
   if(star){const k=star.dataset.star;starSet.has(k)?starSet.delete(k):starSet.add(k);star.classList.toggle('on',starSet.has(k));save();if(starsOnly&&!starSet.has(k))render();return;}
+  const shopEdit=e.target.closest('[data-edit-ci]');
+  if(shopEdit){openShopItemEdit(+shopEdit.dataset.editCi,+shopEdit.dataset.editIi);return;}
+  // pick store from edit sheet
+  const pickEdit=e.target.closest('[data-pick-store-edit]');
+  if(pickEdit){
+    const[ci,ii,s]=pickEdit.dataset.pickStoreEdit.split('_');
+    shopItems[+ci].items[+ii].store=s==='Sin tienda'?'':s;
+    save();closeSheet();render();return;
+  }
+  // save shop item name
+  if(e.target.id==='shop-item-save'){
+    const ci=+e.target.dataset.saveCi,ii=+e.target.dataset.saveIi;
+    const v=document.getElementById('shop-edit-in').value.trim();
+    if(v)shopItems[ci].items[ii].n=v;
+    save();closeSheet();render();return;
+  }
+  // delete shop item
+  if(e.target.id==='shop-item-del'){
+    const ci=+e.target.dataset.delCi,ii=+e.target.dataset.delIi;
+    shopItems[ci].items.splice(ii,1);
+    save();closeSheet();render();return;
+  }
   const badge=e.target.closest('[data-store-ci]');if(badge){openStorePicker(+badge.dataset.storeCi,+badge.dataset.storeIi);return;}
   const pick=e.target.closest('[data-pick-store]');if(pick){assignStore(pick.dataset.pickStore);return;}
   if(e.target.closest('[data-close-sheet]')||e.target.classList.contains('sheet-ov')){closeSheet();return;}
@@ -1088,12 +1137,44 @@ document.getElementById('main').addEventListener('click',e=>{
   const cb=e.target.closest('[data-cb]');if(cb&&e.target.type==='checkbox'){const[ci,ii]=cb.dataset.cb.split('_').map(Number);shopItems[ci].items[ii].checked=e.target.checked;cb.classList.toggle('done',e.target.checked);save();}
 });
 document.getElementById('main').addEventListener('keydown',e=>{
-  if(e.key==='Enter'){if(e.target.id==='edit-in')saveEdit();if(e.target.id==='shop-in')addShop();if(e.target.id==='idea-in')addIdea();if(e.target.id==='ns-in')addNewStore();}
+  if(e.key==='Enter'){if(e.target.id==='edit-in')saveEdit();if(e.target.id==='shop-in')addShop();if(e.target.id==='shop-edit-in'){const btn=document.getElementById('shop-item-save');if(btn)btn.click();}if(e.target.id==='idea-in')addIdea();if(e.target.id==='ns-in')addNewStore();}
   if(e.key==='Escape'){closeOv();closeSheet();}
 });
-// ── DRAG & DROP ───────────────────────────────────────────────────────────
+// ── DRAG & DROP (mouse + touch) ───────────────────────────────────────────
 let dragSrc=null;
+let touchClone=null;
 
+function getBlockFromPoint(x,y){
+  // temporarily hide clone so it doesn't block elementFromPoint
+  if(touchClone)touchClone.style.display='none';
+  const el=document.elementFromPoint(x,y);
+  if(touchClone)touchClone.style.display='';
+  return el?el.closest('[data-di][data-who][data-sec][data-idx]'):null;
+}
+
+function doSwap(dst){
+  if(!dragSrc||!dst)return;
+  if(dst.di===dragSrc.di&&dst.whoKey===dragSrc.whoKey&&dst.sec===dragSrc.sec&&dst.idx===dragSrc.idx)return;
+  const srcDia=semanas[wk].dias[dragSrc.di];
+  const dstDia=semanas[wk].dias[dst.di];
+  const srcItems=getItems(srcDia,dragSrc.whoKey,dragSrc.sec);
+  const dstItems=getItems(dstDia,dst.whoKey,dst.sec);
+  while(srcItems.length<=dragSrc.idx)srcItems.push({t:'',c:'empty'});
+  while(dstItems.length<=dst.idx)dstItems.push({t:'',c:'empty'});
+  const sameGroup=dragSrc.whoKey===dst.whoKey;
+  if(sameGroup){
+    const tmp={...srcItems[dragSrc.idx]};
+    srcItems[dragSrc.idx]={...dstItems[dst.idx]};
+    dstItems[dst.idx]=tmp;
+  } else {
+    dstItems[dst.idx]={...srcItems[dragSrc.idx]};
+  }
+  setItems(srcDia,dragSrc.whoKey,dragSrc.sec,srcItems);
+  setItems(dstDia,dst.whoKey,dst.sec,dstItems);
+  save();render();
+}
+
+// ── MOUSE DRAG ──
 document.getElementById('main').addEventListener('dragstart',e=>{
   const el=e.target.closest('[draggable=true][data-di]');
   if(!el)return;
@@ -1101,58 +1182,81 @@ document.getElementById('main').addEventListener('dragstart',e=>{
   el.classList.add('dragging');
   e.dataTransfer.effectAllowed='move';
 });
-
 document.getElementById('main').addEventListener('dragend',e=>{
-  document.querySelectorAll('.dragging').forEach(el=>el.classList.remove('dragging'));
-  document.querySelectorAll('.drag-over').forEach(el=>el.classList.remove('drag-over'));
+  document.querySelectorAll('.dragging,.drag-over').forEach(el=>el.classList.remove('dragging','drag-over'));
   dragSrc=null;
 });
-
 document.getElementById('main').addEventListener('dragover',e=>{
   const el=e.target.closest('[data-di][data-who][data-sec][data-idx]');
   if(!el||!dragSrc)return;
   e.preventDefault();
-  e.dataTransfer.dropEffect='move';
   document.querySelectorAll('.drag-over').forEach(x=>x.classList.remove('drag-over'));
   el.classList.add('drag-over');
 });
-
 document.getElementById('main').addEventListener('dragleave',e=>{
   const el=e.target.closest('[data-di][data-who][data-sec][data-idx]');
   if(el)el.classList.remove('drag-over');
 });
-
 document.getElementById('main').addEventListener('drop',e=>{
   e.preventDefault();
   const el=e.target.closest('[data-di][data-who][data-sec][data-idx]');
   if(!el||!dragSrc)return;
   el.classList.remove('drag-over');
-  const dst={di:+el.dataset.di,whoKey:el.dataset.who,sec:el.dataset.sec,idx:+el.dataset.idx};
-  if(dst.di===dragSrc.di&&dst.whoKey===dragSrc.whoKey&&dst.sec===dragSrc.sec&&dst.idx===dragSrc.idx)return;
-
-  const srcDia=semanas[wk].dias[dragSrc.di];
-  const dstDia=semanas[wk].dias[dst.di];
-  const srcItems=getItems(srcDia,dragSrc.whoKey,dragSrc.sec);
-  const dstItems=getItems(dstDia,dst.whoKey,dst.sec);
-  while(srcItems.length<=dragSrc.idx)srcItems.push({t:'',c:'empty'});
-  while(dstItems.length<=dst.idx)dstItems.push({t:'',c:'empty'});
-
-  // same group (ninos↔ninos or adultos↔adultos or familia↔familia) → swap
-  // cross group (ninos↔adultos) → copy src into dst, src unchanged
-  const sameGroup=dragSrc.whoKey===dst.whoKey;
-  if(sameGroup){
-    const tmp={...srcItems[dragSrc.idx]};
-    srcItems[dragSrc.idx]={...dstItems[dst.idx]};
-    dstItems[dst.idx]=tmp;
-  } else {
-    // copy: dst gets src value, src stays unchanged
-    dstItems[dst.idx]={...srcItems[dragSrc.idx]};
-  }
-
-  setItems(srcDia,dragSrc.whoKey,dragSrc.sec,srcItems);
-  setItems(dstDia,dst.whoKey,dst.sec,dstItems);
-  save();render();
+  doSwap({di:+el.dataset.di,whoKey:el.dataset.who,sec:el.dataset.sec,idx:+el.dataset.idx});
+  dragSrc=null;
 });
+
+// ── TOUCH DRAG ──
+let touchStartTime=0;
+let touchStartEl=null;
+let touchMoved=false;
+
+document.getElementById('main').addEventListener('touchstart',e=>{
+  const el=e.target.closest('[draggable=true][data-di]');
+  if(!el)return;
+  if(e.target.closest('[data-meal-star]'))return;
+  touchStartEl=el;
+  touchStartTime=Date.now();
+  touchMoved=false;
+  // start drag after 300ms hold
+  setTimeout(()=>{
+    if(!touchMoved&&touchStartEl===el){
+      dragSrc={di:+el.dataset.di,whoKey:el.dataset.who,sec:el.dataset.sec,idx:+el.dataset.idx};
+      const rect=el.getBoundingClientRect();
+      touchClone=el.cloneNode(true);
+      touchClone.style.cssText=`position:fixed;left:${rect.left}px;top:${rect.top}px;width:${rect.width}px;opacity:0.75;pointer-events:none;z-index:999;border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,.2);`;
+      document.body.appendChild(touchClone);
+      el.classList.add('dragging');
+      // small vibration feedback if available
+      if(navigator.vibrate)navigator.vibrate(30);
+    }
+  },300);
+},{passive:true});
+
+document.getElementById('main').addEventListener('touchmove',e=>{
+  touchMoved=true;
+  if(!dragSrc||!touchClone)return;
+  e.preventDefault();
+  const touch=e.touches[0];
+  touchClone.style.left=(touch.clientX-60)+'px';
+  touchClone.style.top=(touch.clientY-20)+'px';
+  const over=getBlockFromPoint(touch.clientX,touch.clientY);
+  document.querySelectorAll('.drag-over').forEach(x=>x.classList.remove('drag-over'));
+  if(over)over.classList.add('drag-over');
+},{passive:false});
+
+document.getElementById('main').addEventListener('touchend',e=>{
+  touchStartEl=null;
+  if(!dragSrc){return;} // was a tap, let click handler deal with it
+  const touch=e.changedTouches[0];
+  const over=getBlockFromPoint(touch.clientX,touch.clientY);
+  document.querySelectorAll('.dragging,.drag-over').forEach(el=>el.classList.remove('dragging','drag-over'));
+  if(touchClone){touchClone.remove();touchClone=null;}
+  if(over){
+    doSwap({di:+over.dataset.di,whoKey:over.dataset.who,sec:over.dataset.sec,idx:+over.dataset.idx});
+  }
+  dragSrc=null;
+},{passive:true});
 
 render();
 </script>
