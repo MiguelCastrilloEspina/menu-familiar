@@ -32,10 +32,10 @@ html,body{height:100%;font-family:'DM Sans',sans-serif;background:var(--bg3);col
 .topbar{background:var(--green);padding:10px 20px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0}
 .topbar-t{color:#fff;font-size:18px;font-weight:500;letter-spacing:-.02em}
 .topbar-t em{font-style:italic;color:#A8D4B4}
-.week-nav{display:flex;align-items:center;gap:8px}
-.wbtn{background:rgba(255,255,255,.15);border:none;color:#fff;width:28px;height:28px;border-radius:50%;font-size:14px;cursor:pointer;display:flex;align-items:center;justify-content:center}
-.wbtn:hover{background:rgba(255,255,255,.3)}
-.wtxt{color:#fff;font-size:12px;font-weight:500;white-space:nowrap}
+.week-nav{display:flex;align-items:center;gap:5px}
+.wbtn{background:var(--bg2);border:0.5px solid var(--border);color:var(--text);width:24px;height:24px;border-radius:50%;font-size:13px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.wbtn:hover{background:var(--green);color:#fff;border-color:var(--green)}
+.wtxt{color:var(--text);font-size:11px;font-weight:500;white-space:nowrap}
 .save-btn{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:20px;font-size:11px;padding:4px 12px;cursor:pointer;font-family:'DM Sans',sans-serif;font-weight:500;white-space:nowrap;display:flex;align-items:center;gap:5px}
 .save-btn:hover{background:rgba(255,255,255,.25)}
 .save-btn.saving{opacity:.6;pointer-events:none}
@@ -57,6 +57,21 @@ html,body{height:100%;font-family:'DM Sans',sans-serif;background:var(--bg3);col
 .hint-txt{font-size:11px;color:var(--hint);margin-left:4px}
 .btn-gen{background:var(--green);border:none;color:#fff;border-radius:20px;font-size:11px;padding:4px 12px;cursor:pointer;font-family:'DM Sans',sans-serif;font-weight:500;margin-left:auto;white-space:nowrap}
 .btn-gen:hover{background:#2E5A3E}
+
+/* GENERATE MODAL */
+.gen-modal{background:var(--bg);border-radius:16px;padding:20px;width:360px;max-width:92vw;max-height:80vh;overflow-y:auto}
+.gen-modal h4{font-size:15px;font-weight:500;margin-bottom:4px}
+.gen-modal p{font-size:12px;color:var(--muted);margin-bottom:16px}
+.gen-mode-toggle{display:flex;background:var(--bg2);border-radius:10px;padding:3px;gap:0;margin-bottom:16px}
+.gen-mode-btn{flex:1;border:none;background:none;font-family:'DM Sans',sans-serif;font-size:12px;padding:6px 8px;border-radius:8px;cursor:pointer;color:var(--muted)}
+.gen-mode-btn.on{background:var(--bg);color:var(--text);font-weight:500;box-shadow:0 1px 4px rgba(0,0,0,.1)}
+.gen-range{display:flex;align-items:center;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.gen-range label{font-size:12px;color:var(--muted);white-space:nowrap}
+.gen-select{border:0.5px solid var(--border);border-radius:8px;padding:6px 10px;font-size:13px;font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);flex:1;min-width:0}
+.gen-days-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:16px}
+.gen-day-chip{border:0.5px solid var(--border);background:var(--bg);border-radius:8px;padding:7px 4px;font-size:11px;text-align:center;cursor:pointer;line-height:1.3;color:var(--muted)}
+.gen-day-chip.on{background:var(--green);border-color:var(--green);color:#fff;font-weight:500}
+.gen-day-chip.disabled{opacity:.35;pointer-events:none}
 
 /* BALANCE PANEL */
 .balance-panel{padding:10px 16px 8px;background:var(--bg);border-bottom:0.5px solid var(--border);flex-shrink:0}
@@ -83,7 +98,7 @@ html,body{height:100%;font-family:'DM Sans',sans-serif;background:var(--bg3);col
 .mblock:hover .bstar{opacity:1}
 .bstar.on{color:var(--amber)!important;opacity:1!important}
 /* mobile: always show star */
-.mob-meal{border-radius:0 8px 8px 0;padding:9px 12px;font-size:13px;line-height:1.4;border-left:3px solid transparent;cursor:pointer;min-height:36px;display:flex;align-items:center;justify-content:space-between;gap:6px;touch-action:none}
+.mob-meal{border-radius:0 8px 8px 0;padding:9px 12px;font-size:13px;line-height:1.4;border-left:3px solid transparent;cursor:pointer;min-height:36px;display:flex;align-items:center;justify-content:space-between;gap:6px;user-select:none;-webkit-user-select:none}
 .mob-meal .btxt{flex:1;min-width:0}
 .mob-bstar{background:none;border:none;cursor:pointer;font-size:16px;line-height:1;padding:0 2px;color:rgba(0,0,0,.18);flex-shrink:0;touch-action:manipulation}
 .mob-bstar.on{color:var(--amber)!important}
@@ -243,7 +258,7 @@ html,body{height:100%;font-family:'DM Sans',sans-serif;background:var(--bg3);col
   .tab span{display:none}
   .tab{padding:10px 0}
   .tab svg{width:22px;height:22px}
-  .week-nav .wtxt{display:none}
+  .week-nav{display:none}
 }
 </style>
 </head>
@@ -257,11 +272,6 @@ html,body{height:100%;font-family:'DM Sans',sans-serif;background:var(--bg3);col
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v14a2 2 0 01-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
       Guardar
     </button>
-    <div class="week-nav">
-      <button class="wbtn" id="wk-prev">‹</button>
-      <span class="wtxt" id="wlbl"></span>
-      <button class="wbtn" id="wk-next">›</button>
-    </div>
   </div>
 </div>
 <div class="sync-toast" id="sync-toast"></div>
@@ -284,7 +294,13 @@ html,body{height:100%;font-family:'DM Sans',sans-serif;background:var(--bg3);col
   <button class="chip" data-who="ninos">Niños</button>
   <button class="chip" data-who="adultos">Adultos</button>
   <div class="chip-div"></div>
-  <button class="btn-gen" id="btn-gen">✨ Generar menú</button>
+  <div class="week-nav">
+    <button class="wbtn" id="wk-prev" style="background:var(--border);color:var(--text)">‹</button>
+    <span class="wtxt" id="wlbl" style="color:var(--text);font-size:11px"></span>
+    <button class="wbtn" id="wk-next" style="background:var(--border);color:var(--text)">›</button>
+  </div>
+  <div class="chip-div"></div>
+  <button class="btn-gen" id="btn-gen">✨ Generar</button>
 </div>
 <div class="balance-panel" id="balance-panel" style="display:none">
   <div class="balance-title">
@@ -725,7 +741,7 @@ function clearEdit(){
   setItems(dia,whoKey,sec,items);
   save();closeOv();render();
 }
-function closeOv(){document.getElementById('edit-ov')?.remove();}
+function closeOv(){document.querySelectorAll('#edit-ov,#gen-ov').forEach(el=>el.remove());}
 
 // ── COMPRA ─────────────────────────────────────────────────────────────────
 function renderShop(){
@@ -924,8 +940,80 @@ function pickFrom(arr,used){
   return pool[Math.floor(Math.random()*pool.length)];
 }
 
-function generateMenu(){
+function openGenerateModal(){
   const dias=semanas[wk].dias;
+  let genMode='range'; // 'range' or 'pick'
+  let fromIdx=0,toIdx=dias.length-1;
+  const picked=new Set(dias.map((_,i)=>i)); // all selected by default
+
+  let h=`<div class="ov" id="gen-ov"><div class="gen-modal">
+    <h4>✨ Generar menú</h4>
+    <p>Elige los días para los que quieres generar cenas y fin de semana. Los días no seleccionados no se tocan.</p>
+    <div class="gen-mode-toggle">
+      <button class="gen-mode-btn on" data-gmode="range">Desde / hasta</button>
+      <button class="gen-mode-btn" data-gmode="pick">Días concretos</button>
+    </div>
+    <div id="gen-range-panel">
+      <div class="gen-range">
+        <label>Desde</label>
+        <select class="gen-select" id="gen-from">`;
+  dias.forEach((d,i)=>{h+=`<option value="${i}">${d.dow} ${d.date} ${d.month}</option>`;});
+  h+=`</select></div>
+      <div class="gen-range">
+        <label>Hasta</label>
+        <select class="gen-select" id="gen-to">`;
+  dias.forEach((d,i)=>{h+=`<option value="${i}" ${i===dias.length-1?'selected':''}>${d.dow} ${d.date} ${d.month}</option>`;});
+  h+=`</select></div></div>
+    <div id="gen-pick-panel" style="display:none">
+      <div class="gen-days-grid">`;
+  dias.forEach((d,i)=>{
+    h+=`<div class="gen-day-chip on" data-gday="${i}">${d.dow}<br>${d.date} ${d.month}</div>`;
+  });
+  h+=`</div></div>
+    <div class="modal-btns">
+      <button class="btn-sec" id="gen-cancel">Cancelar</button>
+      <button class="btn-pri" id="gen-confirm">Generar</button>
+    </div>
+  </div></div>`;
+  document.getElementById('main').insertAdjacentHTML('beforeend',h);
+
+  // mode toggle
+  document.querySelectorAll('[data-gmode]').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      genMode=btn.dataset.gmode;
+      document.querySelectorAll('[data-gmode]').forEach(b=>b.classList.toggle('on',b===btn));
+      document.getElementById('gen-range-panel').style.display=genMode==='range'?'block':'none';
+      document.getElementById('gen-pick-panel').style.display=genMode==='pick'?'block':'none';
+    });
+  });
+  // day chip toggle
+  document.querySelectorAll('[data-gday]').forEach(chip=>{
+    chip.addEventListener('click',()=>{
+      const i=+chip.dataset.gday;
+      if(picked.has(i)){picked.delete(i);chip.classList.remove('on');}
+      else{picked.add(i);chip.classList.add('on');}
+    });
+  });
+  // confirm
+  document.getElementById('gen-confirm').addEventListener('click',()=>{
+    let selectedIdxs;
+    if(genMode==='range'){
+      const from=+document.getElementById('gen-from').value;
+      const to=+document.getElementById('gen-to').value;
+      selectedIdxs=dias.map((_,i)=>i).filter(i=>i>=Math.min(from,to)&&i<=Math.max(from,to));
+    } else {
+      selectedIdxs=[...picked].sort((a,b)=>a-b);
+    }
+    closeOv();
+    generateMenu(selectedIdxs);
+  });
+  document.getElementById('gen-cancel').addEventListener('click',closeOv);
+}
+
+function generateMenu(selectedIdxs){
+  const dias=semanas[wk].dias;
+  // if no selection provided, use all days
+  const toGenerate=new Set(selectedIdxs!=null?selectedIdxs:dias.map((_,i)=>i));
 
   // Category groups by slot role
   const SLOT0_CATS=['verd','leg','cer'];         // 1er plato: vegetal, legumbre o cereal
@@ -989,7 +1077,8 @@ function generateMenu(){
     );
   }
 
-  dias.forEach((dia)=>{
+  dias.forEach((dia,di)=>{
+    if(!toGenerate.has(di))return; // skip unselected days
     const isWeekend=!!dia.familia;
     const isSchoolDay=!isWeekend;
 
@@ -1066,7 +1155,7 @@ document.getElementById('ctrl').addEventListener('click',e=>{
   const b=e.target.closest('[data-who]');if(!b)return;
   who=b.dataset.who;document.querySelectorAll('#ctrl [data-who]').forEach(t=>t.classList.remove('on'));b.classList.add('on');render();
 });
-document.getElementById('btn-gen').addEventListener('click',generateMenu);
+document.getElementById('btn-gen').addEventListener('click',openGenerateModal);
 document.getElementById('balance-toggle').addEventListener('click',e=>{
   const grid=document.getElementById('balance-grid');
   const tog=document.getElementById('balance-toggle');
@@ -1223,47 +1312,54 @@ document.getElementById('main').addEventListener('drop',e=>{
 let touchStartTime=0;
 let touchStartEl=null;
 let touchMoved=false;
+let longPressTimer=null;
+
+function startTouchDrag(el,touch){
+  dragSrc={di:+el.dataset.di,whoKey:el.dataset.who,sec:el.dataset.sec,idx:+el.dataset.idx};
+  const rect=el.getBoundingClientRect();
+  touchClone=el.cloneNode(true);
+  touchClone.style.cssText=`position:fixed;left:${rect.left}px;top:${rect.top}px;width:${rect.width}px;opacity:0.75;pointer-events:none;z-index:9999;border-radius:6px;box-shadow:0 4px 20px rgba(0,0,0,.25);transition:none;`;
+  document.body.appendChild(touchClone);
+  el.style.opacity='0.3';
+  if(navigator.vibrate)navigator.vibrate(40);
+}
 
 document.getElementById('main').addEventListener('touchstart',e=>{
   const el=e.target.closest('[draggable=true][data-di]');
   if(!el)return;
   if(e.target.closest('[data-meal-star]'))return;
   touchStartEl=el;
-  touchStartTime=Date.now();
   touchMoved=false;
-  // start drag after 300ms hold
-  setTimeout(()=>{
+  // long press to start drag
+  longPressTimer=setTimeout(()=>{
     if(!touchMoved&&touchStartEl===el){
-      dragSrc={di:+el.dataset.di,whoKey:el.dataset.who,sec:el.dataset.sec,idx:+el.dataset.idx};
-      const rect=el.getBoundingClientRect();
-      touchClone=el.cloneNode(true);
-      touchClone.style.cssText=`position:fixed;left:${rect.left}px;top:${rect.top}px;width:${rect.width}px;opacity:0.75;pointer-events:none;z-index:999;border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,.2);`;
-      document.body.appendChild(touchClone);
-      el.classList.add('dragging');
-      // small vibration feedback if available
-      if(navigator.vibrate)navigator.vibrate(30);
+      startTouchDrag(el,e.touches[0]);
     }
-  },300);
+  },400);
 },{passive:true});
 
-document.getElementById('main').addEventListener('touchmove',e=>{
+document.addEventListener('touchmove',e=>{
   touchMoved=true;
+  if(longPressTimer&&!dragSrc){clearTimeout(longPressTimer);longPressTimer=null;}
   if(!dragSrc||!touchClone)return;
   e.preventDefault();
   const touch=e.touches[0];
-  touchClone.style.left=(touch.clientX-60)+'px';
-  touchClone.style.top=(touch.clientY-20)+'px';
+  touchClone.style.left=(touch.clientX-touchClone.offsetWidth/2)+'px';
+  touchClone.style.top=(touch.clientY-30)+'px';
   const over=getBlockFromPoint(touch.clientX,touch.clientY);
   document.querySelectorAll('.drag-over').forEach(x=>x.classList.remove('drag-over'));
   if(over)over.classList.add('drag-over');
 },{passive:false});
 
-document.getElementById('main').addEventListener('touchend',e=>{
+document.addEventListener('touchend',e=>{
+  if(longPressTimer){clearTimeout(longPressTimer);longPressTimer=null;}
   touchStartEl=null;
-  if(!dragSrc){return;} // was a tap, let click handler deal with it
+  if(!dragSrc){return;}
   const touch=e.changedTouches[0];
   const over=getBlockFromPoint(touch.clientX,touch.clientY);
-  document.querySelectorAll('.dragging,.drag-over').forEach(el=>el.classList.remove('dragging','drag-over'));
+  // restore opacity of source element
+  document.querySelectorAll('[style*="opacity: 0.3"],[style*="opacity:0.3"]').forEach(el=>el.style.opacity='');
+  document.querySelectorAll('.drag-over').forEach(el=>el.classList.remove('drag-over'));
   if(touchClone){touchClone.remove();touchClone=null;}
   if(over){
     doSwap({di:+over.dataset.di,whoKey:over.dataset.who,sec:over.dataset.sec,idx:+over.dataset.idx});
