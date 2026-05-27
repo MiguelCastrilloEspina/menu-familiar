@@ -1,7 +1,7 @@
 {
   "semanas": [
     {
-      "label": "26 may â 31 may",
+      "label": "26 may Ã¢ÂÂ 31 may",
       "dias": [
         {
           "dow": "Mar",
@@ -30,7 +30,7 @@
             ],
             "cena": [
               {
-                "t": "Crema calabacÃ­n",
+                "t": "Crema calabacÃÂ­n",
                 "c": "verd"
               },
               {
@@ -60,7 +60,7 @@
             ],
             "cena": [
               {
-                "t": "Crema calabacÃ­n",
+                "t": "Crema calabacÃÂ­n",
                 "c": "verd"
               },
               {
@@ -75,13 +75,13 @@
           }
         },
         {
-          "dow": "MiÃ©",
+          "dow": "MiÃÂ©",
           "date": "27",
           "month": "may",
           "ninos": {
             "comida": [
               {
-                "t": "JudÃ­as blancas con verduras",
+                "t": "JudÃÂ­as blancas con verduras",
                 "c": "leg"
               },
               {
@@ -95,7 +95,7 @@
             ],
             "merienda": [
               {
-                "t": "Tortitas maÃ­z + fruta",
+                "t": "Tortitas maÃÂ­z + fruta",
                 "c": "fru"
               }
             ],
@@ -117,7 +117,7 @@
           "adultos": {
             "comida": [
               {
-                "t": "JudÃ­as blancas",
+                "t": "JudÃÂ­as blancas",
                 "c": "leg"
               },
               {
@@ -172,7 +172,7 @@
             ],
             "cena": [
               {
-                "t": "Tortilla calabacÃ­n + patata",
+                "t": "Tortilla calabacÃÂ­n + patata",
                 "c": "hue"
               },
               {
@@ -202,7 +202,7 @@
             ],
             "cena": [
               {
-                "t": "Tortilla calabacÃ­n + patata",
+                "t": "Tortilla calabacÃÂ­n + patata",
                 "c": "hue"
               },
               {
@@ -288,7 +288,7 @@
           }
         },
         {
-          "dow": "SÃ¡b",
+          "dow": "SÃÂ¡b",
           "date": "30",
           "month": "may",
           "familia": {
@@ -318,7 +318,7 @@
                 "c": "cer"
               },
               {
-                "t": "SalmÃ³n",
+                "t": "SalmÃÂ³n",
                 "c": "psa"
               },
               {
@@ -355,7 +355,7 @@
             ],
             "cena": [
               {
-                "t": "Tortilla + jamÃ³n y queso",
+                "t": "Tortilla + jamÃÂ³n y queso",
                 "c": "hue"
               },
               {
@@ -372,7 +372,7 @@
       ]
     },
     {
-      "label": "1 jun â 7 jun",
+      "label": "1 jun Ã¢ÂÂ 7 jun",
       "dias": [
         {
           "dow": "Lun",
@@ -401,7 +401,7 @@
             ],
             "cena": [
               {
-                "t": "Crema de calabacÃ­n",
+                "t": "Crema de calabacÃÂ­n",
                 "c": "verd"
               },
               {
@@ -431,7 +431,7 @@
             ],
             "cena": [
               {
-                "t": "Crema calabacÃ­n",
+                "t": "Crema calabacÃÂ­n",
                 "c": "verd"
               },
               {
@@ -456,7 +456,7 @@
                 "c": "leg"
               },
               {
-                "t": "Tortilla espaÃ±ola",
+                "t": "Tortilla espaÃÂ±ola",
                 "c": "hue"
               },
               {
@@ -492,7 +492,7 @@
                 "c": "leg"
               },
               {
-                "t": "Tortilla espaÃ±ola",
+                "t": "Tortilla espaÃÂ±ola",
                 "c": "hue"
               },
               {
@@ -517,7 +517,7 @@
           }
         },
         {
-          "dow": "MiÃ©",
+          "dow": "MiÃÂ©",
           "date": "3",
           "month": "jun",
           "ninos": {
@@ -618,7 +618,7 @@
                 "c": "cer"
               },
               {
-                "t": "SalmÃ³n a la plancha",
+                "t": "SalmÃÂ³n a la plancha",
                 "c": "psa"
               },
               {
@@ -648,7 +648,7 @@
                 "c": "cer"
               },
               {
-                "t": "SalmÃ³n a la plancha",
+                "t": "SalmÃÂ³n a la plancha",
                 "c": "psa"
               },
               {
@@ -730,7 +730,7 @@
           }
         },
         {
-          "dow": "SÃ¡b",
+          "dow": "SÃÂ¡b",
           "date": "6",
           "month": "jun",
           "familia": {
@@ -820,22 +820,22 @@
       "items": [
         {
           "n": "Cinta de lomo",
-          "store": "CarnicerÃ­a",
+          "store": "CarnicerÃÂ­a",
           "checked": false
         },
         {
           "n": "Pollo (dados)",
-          "store": "CarnicerÃ­a",
+          "store": "CarnicerÃÂ­a",
           "checked": false
         },
         {
           "n": "Pavo",
-          "store": "CarnicerÃ­a",
+          "store": "CarnicerÃÂ­a",
           "checked": false
         },
         {
           "n": "Carne roja fin de semana",
-          "store": "CarnicerÃ­a",
+          "store": "CarnicerÃÂ­a",
           "checked": false
         }
       ]
@@ -854,33 +854,33 @@
           "checked": false
         },
         {
-          "n": "SalmÃ³n",
+          "n": "SalmÃÂ³n",
           "store": "Mercadona",
           "checked": false
         }
       ]
     },
     {
-      "cat": "Huevos y lÃ¡cteos",
+      "cat": "Huevos y lÃÂ¡cteos",
       "items": [
         {
           "n": "Huevos (x12)",
-          "store": "DÃ­a",
+          "store": "DÃÂ­a",
           "checked": false
         },
         {
           "n": "Yogures naturales",
-          "store": "DÃ­a",
+          "store": "DÃÂ­a",
           "checked": false
         },
         {
-          "n": "JamÃ³n york",
-          "store": "DÃ­a",
+          "n": "JamÃÂ³n york",
+          "store": "DÃÂ­a",
           "checked": false
         },
         {
           "n": "Queso",
-          "store": "DÃ­a",
+          "store": "DÃÂ­a",
           "checked": false
         }
       ]
@@ -890,27 +890,27 @@
       "items": [
         {
           "n": "Patatas",
-          "store": "FruterÃ­a",
+          "store": "FruterÃÂ­a",
           "checked": false
         },
         {
-          "n": "CalabacÃ­n",
-          "store": "FruterÃ­a",
+          "n": "CalabacÃÂ­n",
+          "store": "FruterÃÂ­a",
           "checked": false
         },
         {
           "n": "Calabaza",
-          "store": "FruterÃ­a",
+          "store": "FruterÃÂ­a",
           "checked": false
         },
         {
           "n": "Pimiento",
-          "store": "FruterÃ­a",
+          "store": "FruterÃÂ­a",
           "checked": false
         },
         {
           "n": "Zanahoria",
-          "store": "FruterÃ­a",
+          "store": "FruterÃÂ­a",
           "checked": false
         },
         {
@@ -919,17 +919,17 @@
           "checked": false
         },
         {
-          "n": "JudÃ­as blancas (bote)",
+          "n": "JudÃÂ­as blancas (bote)",
           "store": "Mercadona",
           "checked": false
         },
         {
           "n": "Tomate",
-          "store": "FruterÃ­a",
+          "store": "FruterÃÂ­a",
           "checked": false
         },
         {
-          "n": "tÃ© negro",
+          "n": "tÃÂ© negro",
           "store": "Mercadona",
           "checked": false
         }
@@ -954,7 +954,7 @@
           "checked": false
         },
         {
-          "n": "Tortitas de maÃ­z",
+          "n": "Tortitas de maÃÂ­z",
           "store": "Costco",
           "checked": false
         }
@@ -965,7 +965,7 @@
       "items": [
         {
           "n": "Fruta variada",
-          "store": "FruterÃ­a",
+          "store": "FruterÃÂ­a",
           "checked": false
         }
       ]
@@ -973,7 +973,7 @@
   ],
   "starSet": [
     "Verduras|Menestra",
-    "Verduras|Crema calabacÃ­n",
+    "Verduras|Crema calabacÃÂ­n",
     "Verduras|Crema calabaza",
     "Huevos|Tortilla francesa",
     "Huevos|Tortilla patata",
@@ -984,21 +984,21 @@
     "Cereales|Pizza casera",
     "Cereales|Croquetas",
     "Pescado blanco|Merluza",
-    "Pescado azul|SalmÃ³n",
+    "Pescado azul|SalmÃÂ³n",
     "Carne blanca|Pollo plancha",
     "Carne blanca|Pollo al curry",
     "Carne roja|Burguer",
-    "Carne roja|BoloÃ±esa",
-    "Carne roja|AlbÃ³ndigas"
+    "Carne roja|BoloÃÂ±esa",
+    "Carne roja|AlbÃÂ³ndigas"
   ],
   "mealStars": [],
   "ideaExtras": {},
   "stores": [
-    "FruterÃ­a",
-    "CarnicerÃ­a",
+    "FruterÃÂ­a",
+    "CarnicerÃÂ­a",
     "Mercadona",
-    "DÃ­a",
+    "DÃÂ­a",
     "Costco"
   ],
-  "savedAt": "2026-05-27T19:03:14.190Z"
+  "savedAt": "2026-05-27T19:23:16.144Z"
 }
