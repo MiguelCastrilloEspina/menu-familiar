@@ -771,6 +771,7 @@ function openShopItemEdit(ci,ii){
   document.getElementById('shop-edit-in').focus();
   document.getElementById('shop-edit-in').select();
 }
+function openStorePicker(ci,ii){
   pendingStore={ci,ii};const cur=shopItems[ci].items[ii].store;
   let h=`<div class="sheet-ov" id="sheet-ov"><div class="sheet"><div class="sheet-hdr"><span class="sheet-title">¿Dónde se compra?</span><button class="sheet-close" data-close-sheet>×</button></div>`;
   stores.forEach(s=>{h+=`<div class="store-opt" data-pick-store="${s}">${s}${cur===s?'<span class="chk">✓</span>':''}</div>`;});
