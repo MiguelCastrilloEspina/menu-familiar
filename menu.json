@@ -259,12 +259,12 @@
           "adultos": {
             "comida": [
               {
-                "t": "Espirales con verduras",
+                "t": "Ensalada de pasta",
                 "c": "cer"
               },
               {
-                "t": "Pavo con zanahoria",
-                "c": "cab"
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "",
@@ -281,8 +281,8 @@
                 "c": "empty"
               },
               {
-                "t": "Fruta",
-                "c": "fru"
+                "t": "",
+                "c": "empty"
               }
             ]
           }
@@ -294,16 +294,16 @@
           "familia": {
             "comida": [
               {
-                "t": "Legumbres",
-                "c": "leg"
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Cereales / pasta",
-                "c": "cer"
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Fruta",
-                "c": "fru"
+                "t": "",
+                "c": "empty"
               }
             ],
             "merienda": [
@@ -314,12 +314,12 @@
             ],
             "cena": [
               {
-                "t": "Pasta",
-                "c": "cer"
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Salmon",
-                "c": "psa"
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "Yogur",
@@ -995,5 +995,5 @@
     "Dia",
     "Costco"
   ],
-  "savedAt": "2026-05-29T14:25:38.690Z"
+  "savedAt": "2026-05-29T14:27:39.982Z"
 }
