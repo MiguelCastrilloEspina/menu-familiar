@@ -2,8 +2,9 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<title>Men&uacute; Familiar</title>
+<title>Menú Familiar</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -272,7 +273,7 @@ html,body{height:100%;font-family:'DM Sans',sans-serif;background:var(--bg3);col
 <body>
 <div class="app">
 <div class="topbar">
-  <span class="topbar-t">Men&uacute; <em>familiar</em></span>
+  <span class="topbar-t">Menú <em>familiar</em></span>
   <div style="display:flex;align-items:center;gap:8px">
     <span class="save-status" id="save-status"></span>
     <button class="save-btn" id="save-gh-btn">
@@ -285,7 +286,7 @@ html,body{height:100%;font-family:'DM Sans',sans-serif;background:var(--bg3);col
 <div class="tabs" id="tabs">
   <button class="tab on" data-tab="menu">
     <svg viewBox="0 0 24 24"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 002-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 00-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></svg>
-    <span>Men&uacute;</span>
+    <span>Menú</span>
   </button>
   <button class="tab" data-tab="compra">
     <svg viewBox="0 0 24 24"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
@@ -298,7 +299,7 @@ html,body{height:100%;font-family:'DM Sans',sans-serif;background:var(--bg3);col
 </div>
 <div class="ctrl" id="ctrl">
   <button class="chip on" data-who="todos">Todos</button>
-  <button class="chip" data-who="ninos">Ni&ntilde;os</button>
+  <button class="chip" data-who="ninos">Niños</button>
   <button class="chip" data-who="adultos">Adultos</button>
   <div class="chip-div"></div>
   <div class="week-nav">
@@ -314,7 +315,7 @@ html,body{height:100%;font-family:'DM Sans',sans-serif;background:var(--bg3);col
 </div>
 <div class="balance-panel" id="balance-panel" style="display:none">
   <div class="balance-title">
-    Balance semanal ni&ntilde;os
+    Balance semanal niños
     <span class="balance-toggle" id="balance-toggle">Ocultar</span>
   </div>
   <div class="balance-grid" id="balance-grid"></div>
@@ -323,32 +324,32 @@ html,body{height:100%;font-family:'DM Sans',sans-serif;background:var(--bg3);col
 </div>
 <script>
 // ── CONSTANTS ──────────────────────────────────────────────────────────────
-const CAT_LABELS={fru:"Fruta",verd:"Verduras",leg:"Legumbres",cer:"Cereales/pasta",hue:"Huevos",lac:"L&aacute;cteos",psb:"Pescado blanco",psa:"Pescado azul",cab:"Carne blanca",car:"Carne roja",piz:"Pizza",mer:"Merienda"};
+const CAT_LABELS={fru:"Fruta",verd:"Verduras",leg:"Legumbres",cer:"Cereales/pasta",hue:"Huevos",lac:"Lácteos",psb:"Pescado blanco",psa:"Pescado azul",cab:"Carne blanca",car:"Carne roja",piz:"Pizza",mer:"Merienda"};
 const CAT_ORDER=["fru","verd","leg","cer","hue","lac","psb","psa","cab","car","piz"];
 
-// Semana 1: Mar 26 may – Dom 31 may (6 d&iacute;as, no hay lunes)
-// Semana 2: Lun 1 jun – Dom 7 jun (7 d&iacute;as)
+// Semana 1: Mar 26 may – Dom 31 may (6 días, no hay lunes)
+// Semana 2: Lun 1 jun – Dom 7 jun (7 días)
 const SEMANAS_BASE=[
   {label:"26 may – 31 may",dias:[
     {dow:"Mar",date:"26",month:"may",
       ninos:{
         comida:[{t:"Patatas guisadas con bacalao",c:"psb"},{t:"Cinta de lomo con champis",c:"car"},{t:"Fruta",c:"fru"}],
         merienda:[{t:"Batido frutas + yogur",c:"fru"}],
-        cena:[{t:"Crema calabac&iacute;n",c:"verd"},{t:"Tortilla francesa",c:"hue"},{t:"Yogur",c:"lac"}]
+        cena:[{t:"Crema calabacín",c:"verd"},{t:"Tortilla francesa",c:"hue"},{t:"Yogur",c:"lac"}]
       },
       adultos:{
         comida:[{t:"Patatas con bacalao",c:"psb"},{t:"Cinta de lomo con champis",c:"car"},{t:"",c:"empty"}],
-        cena:[{t:"Crema calabac&iacute;n",c:"verd"},{t:"Tortilla francesa",c:"hue"},{t:"",c:"empty"}]
+        cena:[{t:"Crema calabacín",c:"verd"},{t:"Tortilla francesa",c:"hue"},{t:"",c:"empty"}]
       }
     },
-    {dow:"Mi&eacute;",date:"27",month:"may",
+    {dow:"Mié",date:"27",month:"may",
       ninos:{
-        comida:[{t:"Jud&iacute;as blancas con verduras",c:"leg"},{t:"Merluza a la jardinera",c:"psb"},{t:"Fruta",c:"fru"}],
-        merienda:[{t:"Tortitas ma&iacute;z + fruta",c:"fru"}],
+        comida:[{t:"Judías blancas con verduras",c:"leg"},{t:"Merluza a la jardinera",c:"psb"},{t:"Fruta",c:"fru"}],
+        merienda:[{t:"Tortitas maíz + fruta",c:"fru"}],
         cena:[{t:"Arroz con verduras",c:"cer"},{t:"Dados de pollo",c:"cab"},{t:"Yogur",c:"lac"}]
       },
       adultos:{
-        comida:[{t:"Jud&iacute;as blancas",c:"leg"},{t:"Merluza jardinera",c:"psb"},{t:"",c:"empty"}],
+        comida:[{t:"Judías blancas",c:"leg"},{t:"Merluza jardinera",c:"psb"},{t:"",c:"empty"}],
         cena:[{t:"Arroz con verduras",c:"cer"},{t:"Dados de pollo",c:"cab"},{t:"",c:"empty"}]
       }
     },
@@ -356,11 +357,11 @@ const SEMANAS_BASE=[
       ninos:{
         comida:[{t:"Guisantes con pavo",c:"verd"},{t:"Pollo con pimiento y calabaza",c:"cab"},{t:"Yogur",c:"lac"}],
         merienda:[{t:"Fruta",c:"fru"}],
-        cena:[{t:"Tortilla calabac&iacute;n + patata",c:"hue"},{t:"",c:"empty"},{t:"Yogur",c:"lac"}]
+        cena:[{t:"Tortilla calabacín + patata",c:"hue"},{t:"",c:"empty"},{t:"Yogur",c:"lac"}]
       },
       adultos:{
         comida:[{t:"Guisantes con pavo",c:"verd"},{t:"Pollo con pimiento",c:"cab"},{t:"",c:"empty"}],
-        cena:[{t:"Tortilla calabac&iacute;n + patata",c:"hue"},{t:"",c:"empty"},{t:"",c:"empty"}]
+        cena:[{t:"Tortilla calabacín + patata",c:"hue"},{t:"",c:"empty"},{t:"",c:"empty"}]
       }
     },
     {dow:"Vie",date:"29",month:"may",
@@ -374,18 +375,18 @@ const SEMANAS_BASE=[
         cena:[{t:"Pizza casera (SG)",c:"piz"},{t:"",c:"empty"},{t:"",c:"empty"}]
       }
     },
-    {dow:"S&aacute;b",date:"30",month:"may",
+    {dow:"Sáb",date:"30",month:"may",
       familia:{
         comida:[{t:"Legumbres",c:"leg"},{t:"Cereales / pasta",c:"cer"},{t:"Fruta",c:"fru"}],
         merienda:[{t:"Fruta",c:"fru"}],
-        cena:[{t:"Pasta",c:"cer"},{t:"Salm&oacute;n",c:"psa"},{t:"Yogur",c:"lac"}]
+        cena:[{t:"Pasta",c:"cer"},{t:"Salmón",c:"psa"},{t:"Yogur",c:"lac"}]
       }
     },
     {dow:"Dom",date:"31",month:"may",
       familia:{
         comida:[{t:"Cereales / pasta",c:"cer"},{t:"Carne roja",c:"car"},{t:"Fruta",c:"fru"}],
         merienda:[{t:"Fruta",c:"fru"}],
-        cena:[{t:"Tortilla + jam&oacute;n y queso",c:"hue"},{t:"",c:"empty"},{t:"Yogur",c:"lac"}]
+        cena:[{t:"Tortilla + jamón y queso",c:"hue"},{t:"",c:"empty"},{t:"Yogur",c:"lac"}]
       }
     }
   ]},
@@ -394,25 +395,25 @@ const SEMANAS_BASE=[
       ninos:{
         comida:[{t:"Arroz con tomate",c:"cer"},{t:"Ternera con patatas",c:"car"},{t:"Yogur",c:"lac"}],
         merienda:[{t:"Fruta",c:"fru"}],
-        cena:[{t:"Crema de calabac&iacute;n",c:"verd"},{t:"Revuelto de verduras",c:"hue"},{t:"Yogur",c:"lac"}]
+        cena:[{t:"Crema de calabacín",c:"verd"},{t:"Revuelto de verduras",c:"hue"},{t:"Yogur",c:"lac"}]
       },
       adultos:{
         comida:[{t:"Arroz con tomate",c:"cer"},{t:"Ternera con patatas",c:"car"},{t:"",c:"empty"}],
-        cena:[{t:"Crema calabac&iacute;n",c:"verd"},{t:"Revuelto verduras",c:"hue"},{t:"",c:"empty"}]
+        cena:[{t:"Crema calabacín",c:"verd"},{t:"Revuelto verduras",c:"hue"},{t:"",c:"empty"}]
       }
     },
     {dow:"Mar",date:"2",month:"jun",
       ninos:{
-        comida:[{t:"Alubias blancas con verduras",c:"leg"},{t:"Tortilla espa&ntilde;ola",c:"hue"},{t:"Fruta",c:"fru"}],
+        comida:[{t:"Alubias blancas con verduras",c:"leg"},{t:"Tortilla española",c:"hue"},{t:"Fruta",c:"fru"}],
         merienda:[{t:"Fruta",c:"fru"}],
         cena:[{t:"Sopa de estrellas",c:"cer"},{t:"Pechuga de pavo",c:"cab"},{t:"Yogur",c:"lac"}]
       },
       adultos:{
-        comida:[{t:"Alubias blancas",c:"leg"},{t:"Tortilla espa&ntilde;ola",c:"hue"},{t:"",c:"empty"}],
+        comida:[{t:"Alubias blancas",c:"leg"},{t:"Tortilla española",c:"hue"},{t:"",c:"empty"}],
         cena:[{t:"Sopa de estrellas",c:"cer"},{t:"Pechuga de pavo",c:"cab"},{t:"",c:"empty"}]
       }
     },
-    {dow:"Mi&eacute;",date:"3",month:"jun",
+    {dow:"Mié",date:"3",month:"jun",
       ninos:{
         comida:[{t:"Macarrones con tomate",c:"cer"},{t:"Merluza con pimientos",c:"psb"},{t:"Fruta",c:"fru"}],
         merienda:[{t:"Fruta",c:"fru"}],
@@ -427,11 +428,11 @@ const SEMANAS_BASE=[
       ninos:{
         comida:[{t:"Crema de calabaza",c:"verd"},{t:"Pollo en salsa de setas",c:"cab"},{t:"Fruta",c:"fru"}],
         merienda:[{t:"Fruta",c:"fru"}],
-        cena:[{t:"Arroz con verduras",c:"cer"},{t:"Salm&oacute;n a la plancha",c:"psa"},{t:"Yogur",c:"lac"}]
+        cena:[{t:"Arroz con verduras",c:"cer"},{t:"Salmón a la plancha",c:"psa"},{t:"Yogur",c:"lac"}]
       },
       adultos:{
         comida:[{t:"Crema de calabaza",c:"verd"},{t:"Pollo con setas",c:"cab"},{t:"",c:"empty"}],
-        cena:[{t:"Arroz con verduras",c:"cer"},{t:"Salm&oacute;n a la plancha",c:"psa"},{t:"",c:"empty"}]
+        cena:[{t:"Arroz con verduras",c:"cer"},{t:"Salmón a la plancha",c:"psa"},{t:"",c:"empty"}]
       }
     },
     {dow:"Vie",date:"5",month:"jun",
@@ -445,7 +446,7 @@ const SEMANAS_BASE=[
         cena:[{t:"Pizza casera (SG)",c:"piz"},{t:"",c:"empty"},{t:"",c:"empty"}]
       }
     },
-    {dow:"S&aacute;b",date:"6",month:"jun",
+    {dow:"Sáb",date:"6",month:"jun",
       familia:{
         comida:[{t:"Arroz 3 delicias",c:"cer"},{t:"Filete de ternera",c:"car"},{t:"Fruta",c:"fru"}],
         merienda:[{t:"Fruta",c:"fru"}],
@@ -463,25 +464,25 @@ const SEMANAS_BASE=[
 ];
 
 let shopItems=[
-  {cat:"Carnes y aves",items:[{n:"Cinta de lomo",store:"Carnicer&iacute;a",checked:false},{n:"Pollo (dados)",store:"Carnicer&iacute;a",checked:false},{n:"Pavo",store:"Carnicer&iacute;a",checked:false},{n:"Carne roja fin de semana",store:"Carnicer&iacute;a",checked:false}]},
-  {cat:"Pescados",items:[{n:"Bacalao",store:"Mercadona",checked:false},{n:"Merluza",store:"Mercadona",checked:false},{n:"Salm&oacute;n",store:"Mercadona",checked:false}]},
-  {cat:"Huevos y l&aacute;cteos",items:[{n:"Huevos (x12)",store:"D&iacute;a",checked:false},{n:"Yogures naturales",store:"D&iacute;a",checked:false},{n:"Jam&oacute;n york",store:"D&iacute;a",checked:false},{n:"Queso",store:"D&iacute;a",checked:false}]},
-  {cat:"Verduras",items:[{n:"Patatas",store:"Fruter&iacute;a",checked:false},{n:"Calabac&iacute;n",store:"Fruter&iacute;a",checked:false},{n:"Calabaza",store:"Fruter&iacute;a",checked:false},{n:"Pimiento",store:"Fruter&iacute;a",checked:false},{n:"Zanahoria",store:"Fruter&iacute;a",checked:false},{n:"Guisantes",store:"Mercadona",checked:false},{n:"Jud&iacute;as blancas (bote)",store:"Mercadona",checked:false},{n:"Tomate",store:"Fruter&iacute;a",checked:false}]},
-  {cat:"Despensa",items:[{n:"Espirales",store:"Mercadona",checked:false},{n:"Arroz",store:"Mercadona",checked:false},{n:"Base pizza SG",store:"Mercadona",checked:false},{n:"Tortitas de ma&iacute;z",store:"Costco",checked:false}]},
-  {cat:"Fruta",items:[{n:"Fruta variada",store:"Fruter&iacute;a",checked:false}]}
+  {cat:"Carnes y aves",items:[{n:"Cinta de lomo",store:"Carnicería",checked:false},{n:"Pollo (dados)",store:"Carnicería",checked:false},{n:"Pavo",store:"Carnicería",checked:false},{n:"Carne roja fin de semana",store:"Carnicería",checked:false}]},
+  {cat:"Pescados",items:[{n:"Bacalao",store:"Mercadona",checked:false},{n:"Merluza",store:"Mercadona",checked:false},{n:"Salmón",store:"Mercadona",checked:false}]},
+  {cat:"Huevos y lácteos",items:[{n:"Huevos (x12)",store:"Día",checked:false},{n:"Yogures naturales",store:"Día",checked:false},{n:"Jamón york",store:"Día",checked:false},{n:"Queso",store:"Día",checked:false}]},
+  {cat:"Verduras",items:[{n:"Patatas",store:"Frutería",checked:false},{n:"Calabacín",store:"Frutería",checked:false},{n:"Calabaza",store:"Frutería",checked:false},{n:"Pimiento",store:"Frutería",checked:false},{n:"Zanahoria",store:"Frutería",checked:false},{n:"Guisantes",store:"Mercadona",checked:false},{n:"Judías blancas (bote)",store:"Mercadona",checked:false},{n:"Tomate",store:"Frutería",checked:false}]},
+  {cat:"Despensa",items:[{n:"Espirales",store:"Mercadona",checked:false},{n:"Arroz",store:"Mercadona",checked:false},{n:"Base pizza SG",store:"Mercadona",checked:false},{n:"Tortitas de maíz",store:"Costco",checked:false}]},
+  {cat:"Fruta",items:[{n:"Fruta variada",store:"Frutería",checked:false}]}
 ];
 const ideasData=[
-  {cat:"Verduras",col:"#274E13",items:["Jud&iacute;as verdes","Alcachofas","Menestra","Ensaladilla rusa","Crema calabac&iacute;n","Crema calabaza","Batata"]},
+  {cat:"Verduras",col:"#274E13",items:["Judías verdes","Alcachofas","Menestra","Ensaladilla rusa","Crema calabacín","Crema calabaza","Batata"]},
   {cat:"Huevos",col:"#7F6000",items:["Tortilla francesa","Revuelto verduras","Tortilla patata","Huevo duro"]},
   {cat:"Legumbres",col:"#E69138",items:["Garbanzos Foodtropia","Lentejas","Guisantes","Fabada / alubias"]},
   {cat:"Cereales",col:"#BF9000",items:["Arroz","Macarrones","Quiche","Pizza casera","Croquetas"]},
   {cat:"Pescado blanco",col:"#1155CC",items:["Merluza","Gallo"]},
-  {cat:"Pescado azul",col:"#6FA8DC",items:["Salm&oacute;n"]},
+  {cat:"Pescado azul",col:"#6FA8DC",items:["Salmón"]},
   {cat:"Carne blanca",col:"#CC4125",items:["Pollo plancha","Lomitos","Pavo","Pollo al curry"]},
-  {cat:"Carne roja",col:"#CC0000",items:["Filete ternera","Burguer","Bolo&ntilde;esa","Alb&oacute;ndigas","Calabac&iacute;n relleno"]}
+  {cat:"Carne roja",col:"#CC0000",items:["Filete ternera","Burguer","Boloñesa","Albóndigas","Calabacín relleno"]}
 ];
-const DS=new Set(["Verduras|Menestra","Verduras|Crema calabac&iacute;n","Verduras|Crema calabaza","Huevos|Tortilla francesa","Huevos|Tortilla patata","Legumbres|Garbanzos Foodtropia","Legumbres|Lentejas","Cereales|Arroz","Cereales|Macarrones","Cereales|Pizza casera","Cereales|Croquetas","Pescado blanco|Merluza","Pescado azul|Salm&oacute;n","Carne blanca|Pollo plancha","Carne blanca|Pollo al curry","Carne roja|Burguer","Carne roja|Bolo&ntilde;esa","Carne roja|Alb&oacute;ndigas"]);
-let starSet=new Set(DS),ideaExtras={},mealStars=new Set(),stores=["Fruter&iacute;a","Carnicer&iacute;a","Mercadona","D&iacute;a","Costco"],activeStore="Todas",starsOnly=false;
+const DS=new Set(["Verduras|Menestra","Verduras|Crema calabacín","Verduras|Crema calabaza","Huevos|Tortilla francesa","Huevos|Tortilla patata","Legumbres|Garbanzos Foodtropia","Legumbres|Lentejas","Cereales|Arroz","Cereales|Macarrones","Cereales|Pizza casera","Cereales|Croquetas","Pescado blanco|Merluza","Pescado azul|Salmón","Carne blanca|Pollo plancha","Carne blanca|Pollo al curry","Carne roja|Burguer","Carne roja|Boloñesa","Carne roja|Albóndigas"]);
+let starSet=new Set(DS),ideaExtras={},mealStars=new Set(),stores=["Frutería","Carnicería","Mercadona","Día","Costco"],activeStore="Todas",starsOnly=false;
 let wk=0,tab='menu',who='todos',mSlide=0,pendingStore=null,editCtx=null,semanas;
 
 function loadData(){
@@ -569,7 +570,7 @@ async function saveToGitHub(){
       savedAt:new Date().toISOString()
     };
     const body={
-      message:`Men&uacute; actualizado ${new Date().toLocaleDateString('es-ES')}`,
+      message:`Menú actualizado ${new Date().toLocaleDateString('es-ES')}`,
       content:btoa(unescape(encodeURIComponent(JSON.stringify(content,null,2)))),
       ...(sha&&{sha})
     };
@@ -580,19 +581,19 @@ async function saveToGitHub(){
     });
     if(res.ok){
       setStatus('✓ Guardado');
-      showToast('✓ Men&uacute; guardado en GitHub');
+      showToast('✓ Menú guardado en GitHub');
     } else {
       const err=await res.json();
       if(res.status===401){
         localStorage.removeItem('gh_token');
-        showToast('Token incorrecto — int&eacute;ntalo de nuevo');
+        showToast('Token incorrecto — inténtalo de nuevo');
       } else {
         showToast('Error al guardar: '+( err.message||res.status));
       }
       setStatus('');
     }
   }catch(e){
-    showToast('Error de conexi&oacute;n');
+    showToast('Error de conexión');
     setStatus('');
   }
   btn.classList.remove('saving');
@@ -683,7 +684,7 @@ function renderMobile(){
     if(d.familia){
       h+=mWho('👨‍👩‍👧‍👦','Toda la familia',d,di,'familia',SECS_N);
     } else {
-      if(who==='todos'||who==='ninos') h+=mWho('👧👦','Ni&ntilde;os',d,di,'ninos',SECS_N);
+      if(who==='todos'||who==='ninos') h+=mWho('👧👦','Niños',d,di,'ninos',SECS_N);
       if(who==='todos'||who==='adultos') h+=mWho('🧔‍♂️👩','Adultos',d,di,'adultos',SECS_A);
     }
     h+=`</div>`;
@@ -759,7 +760,7 @@ function closeOv(){document.querySelectorAll('#edit-ov,#gen-ov').forEach(el=>el.
 function renderShop(){
   const allStores=["Todas",...stores];
   let h=`<div class="compra-wrap">
-    <div class="add-bar"><input class="add-in" id="shop-in" placeholder="A&ntilde;adir producto..."><button class="add-btn" id="shop-add-btn">A&ntilde;adir</button></div>
+    <div class="add-bar"><input class="add-in" id="shop-in" placeholder="Añadir producto..."><button class="add-btn" id="shop-add-btn">Añadir</button></div>
     <div class="store-bar">${allStores.map(s=>`<button class="sfc ${activeStore===s?'on':''}" data-sfc="${s}">${s}</button>`).join('')}</div>
     <div class="shop-scroll"><div>`;
   shopItems.forEach((cat,ci)=>{
@@ -788,7 +789,7 @@ function openShopItemEdit(ci,ii){
   allStores.forEach(s=>{
     h+=`<div class="store-opt" data-pick-store-edit="${ci}_${ii}_${s}">${s==='Sin tienda'?'Sin tienda':s}${it.store===s||(!it.store&&s==='Sin tienda')?'<span class="chk">✓</span>':''}</div>`;
   });
-  h+=`<div class="new-store-row"><input class="ns-in" id="ns-in" placeholder="Nuevo establecimiento..."><button class="ns-btn" id="ns-btn">A&ntilde;adir</button></div>
+  h+=`<div class="new-store-row"><input class="ns-in" id="ns-in" placeholder="Nuevo establecimiento..."><button class="ns-btn" id="ns-btn">Añadir</button></div>
     <div style="display:flex;gap:8px;margin-top:16px">
       <button class="btn-danger" id="shop-item-del" data-del-ci="${ci}" data-del-ii="${ii}">Eliminar</button>
       <button class="btn-pri" id="shop-item-save" data-save-ci="${ci}" data-save-ii="${ii}" style="flex:1">Guardar nombre</button>
@@ -800,9 +801,9 @@ function openShopItemEdit(ci,ii){
 }
 function openStorePicker(ci,ii){
   pendingStore={ci,ii};const cur=shopItems[ci].items[ii].store;
-  let h=`<div class="sheet-ov" id="sheet-ov"><div class="sheet"><div class="sheet-hdr"><span class="sheet-title">&iquest;D&oacute;nde se compra?</span><button class="sheet-close" data-close-sheet>×</button></div>`;
+  let h=`<div class="sheet-ov" id="sheet-ov"><div class="sheet"><div class="sheet-hdr"><span class="sheet-title">¿Dónde se compra?</span><button class="sheet-close" data-close-sheet>×</button></div>`;
   stores.forEach(s=>{h+=`<div class="store-opt" data-pick-store="${s}">${s}${cur===s?'<span class="chk">✓</span>':''}</div>`;});
-  h+=`<div class="new-store-row"><input class="ns-in" id="ns-in" placeholder="Nuevo establecimiento..."><button class="ns-btn" id="ns-btn">A&ntilde;adir</button></div></div></div>`;
+  h+=`<div class="new-store-row"><input class="ns-in" id="ns-in" placeholder="Nuevo establecimiento..."><button class="ns-btn" id="ns-btn">Añadir</button></div></div></div>`;
   document.getElementById('main').insertAdjacentHTML('beforeend',h);
 }
 function assignStore(s){if(pendingStore){shopItems[pendingStore.ci].items[pendingStore.ii].store=s;pendingStore=null;}closeSheet();save();render();}
@@ -815,13 +816,13 @@ function addShop(){
   if(!cat){cat={cat:cn,items:[]};shopItems.push(cat);}
   cat.items.push({n:v,store:'',checked:false});inp.value='';save();render();
 }
-function showDupe(n){document.getElementById('main').insertAdjacentHTML('beforeend',`<div class="dupe-ov"><div class="dupe-box"><h4>Ya est&aacute; en la lista</h4><p>"${n}" ya est&aacute; incluido.</p><button class="dupe-ok" id="dupe-ok">Entendido</button></div></div>`);}
+function showDupe(n){document.getElementById('main').insertAdjacentHTML('beforeend',`<div class="dupe-ov"><div class="dupe-box"><h4>Ya está en la lista</h4><p>"${n}" ya está incluido.</p><button class="dupe-ok" id="dupe-ok">Entendido</button></div></div>`);}
 function guessShopCat(v){v=v.toLowerCase();
-  if(/salm&oacute;n|merluza|bacalao|gallo|at&uacute;n|sardina|pescado/.test(v))return'Pescados';
-  if(/pollo|pavo|pechuga|carne|ternera|cerdo|lomo|burger|alb&oacute;ndiga/.test(v))return'Carnes y aves';
-  if(/huevo|yogur|queso|leche|mantequilla/.test(v))return'Huevos y l&aacute;cteos';
-  if(/manzana|pera|pl&aacute;tano|naranja|fresa|sand&iacute;a|mel&oacute;n|kiwi|fruta|melocot&oacute;n/.test(v))return'Fruta';
-  if(/pasta|arroz|harina|macarr&oacute;n|espiral|fideo|pan|cereal/.test(v))return'Despensa';
+  if(/salmón|merluza|bacalao|gallo|atún|sardina|pescado/.test(v))return'Pescados';
+  if(/pollo|pavo|pechuga|carne|ternera|cerdo|lomo|burger|albóndiga/.test(v))return'Carnes y aves';
+  if(/huevo|yogur|queso|leche|mantequilla/.test(v))return'Huevos y lácteos';
+  if(/manzana|pera|plátano|naranja|fresa|sandía|melón|kiwi|fruta|melocotón/.test(v))return'Fruta';
+  if(/pasta|arroz|harina|macarrón|espiral|fideo|pan|cereal/.test(v))return'Despensa';
   return'Verduras';}
 function closeSheet(){document.querySelectorAll('.sheet-ov,#cal-sheet-ov,.dupe-ov').forEach(e=>e.remove());}
 
@@ -856,8 +857,8 @@ function toggleMealStar(sk,name,catCode,btn){
 // ── IDEAS ──────────────────────────────────────────────────────────────────
 function renderIdeas(){
   let h=`<div class="ideas-wrap">
-    <div class="add-bar"><input class="add-in" id="idea-in" placeholder="A&ntilde;adir receta..."><button class="add-btn" id="idea-add-btn">A&ntilde;adir</button></div>
-    <div class="ifbar"><button class="sfilt ${starsOnly?'on':''}" id="star-filt">★ Favoritos ni&ntilde;os</button></div>
+    <div class="add-bar"><input class="add-in" id="idea-in" placeholder="Añadir receta..."><button class="add-btn" id="idea-add-btn">Añadir</button></div>
+    <div class="ifbar"><button class="sfilt ${starsOnly?'on':''}" id="star-filt">★ Favoritos niños</button></div>
     <div class="ideas-scroll"><div>`;
   ideasData.forEach(cat=>{
     const extras=ideaExtras[cat.cat]||[];
@@ -878,14 +879,14 @@ function addIdea(){
   ideaExtras[cat].push(v);save();inp.value='';render();
 }
 function guessIdeaCat(v){v=v.toLowerCase();
-  if(/salm&oacute;n|at&uacute;n|sardina/.test(v))return'Pescado azul';if(/merluza|bacalao|gallo/.test(v))return'Pescado blanco';
-  if(/pollo|pavo|pechuga/.test(v))return'Carne blanca';if(/ternera|cerdo|burger|alb&oacute;ndiga|bolo&ntilde;esa/.test(v))return'Carne roja';
+  if(/salmón|atún|sardina/.test(v))return'Pescado azul';if(/merluza|bacalao|gallo/.test(v))return'Pescado blanco';
+  if(/pollo|pavo|pechuga/.test(v))return'Carne blanca';if(/ternera|cerdo|burger|albóndiga|boloñesa/.test(v))return'Carne roja';
   if(/huevo|tortilla|revuelto/.test(v))return'Huevos';if(/lentejas|garbanzos|alubias|guisantes|fabada/.test(v))return'Legumbres';
-  if(/arroz|pasta|macarr&oacute;n|pizza|croqueta|quiche/.test(v))return'Cereales';return'Verduras';}
+  if(/arroz|pasta|macarrón|pizza|croqueta|quiche/.test(v))return'Cereales';return'Verduras';}
 
 // ── WEEKLY TARGETS ────────────────────────────────────────────────────────
 const TARGETS={fru:7,verd:7,leg:3,cer:7,hue:4,lac:7,psb:2,psa:2,cab:3,car:2};
-const TARGET_LABELS={fru:"Fruta",verd:"Verduras",leg:"Legumbres",cer:"Cereales",hue:"Huevos",lac:"L&aacute;cteos",psb:"P. blanco",psa:"P. azul",cab:"C. blanca",car:"C. roja"};
+const TARGET_LABELS={fru:"Fruta",verd:"Verduras",leg:"Legumbres",cer:"Cereales",hue:"Huevos",lac:"Lácteos",psb:"P. blanco",psa:"P. azul",cab:"C. blanca",car:"C. roja"};
 
 function countCats(){
   const counts={};Object.keys(TARGETS).forEach(k=>counts[k]=0);
@@ -972,20 +973,20 @@ function openDayCalendar(){
   let todayLabel='Hoy';
   if(todayWk>=0){
     const d=semanas[todayWk].dias[todayIdx];
-    todayLabel=`Hoy &mdash; ${d.dow} ${d.date} ${d.month}`;
+    todayLabel=`Hoy — ${d.dow} ${d.date} ${d.month}`;
   }
 
   let h=`<div class="sheet-ov" id="cal-sheet-ov"><div class="sheet">
     <div class="sheet-hdr">
-      <span class="sheet-title">Elige un d&iacute;a</span>
-      <button class="sheet-close" data-close-sheet>&times;</button>
+      <span class="sheet-title">Elige un día</span>
+      <button class="sheet-close" data-close-sheet>×</button>
     </div>
     <button class="btn-pri" style="width:100%;margin-bottom:14px" data-pick-day="${todayIdx>=0?todayIdx:0}" data-pick-wk="${todayWk>=0?todayWk:wk}">${todayLabel}</button>`;
 
   dias.forEach((d,i)=>{
     const isToday=i===todayInCurrentWk;
     h+=`<div class="store-opt" data-pick-day="${i}" data-pick-wk="${wk}" style="${i===mSlide?'font-weight:600;color:var(--green)':''}">
-      ${d.dow} ${d.date} ${d.month}${isToday?' &mdash; hoy':''}${i===mSlide?' &check;':''}
+      ${d.dow} ${d.date} ${d.month}${isToday?' — hoy':''}${i===mSlide?' ✓':''}
     </div>`;
   });
   h+=`</div></div>`;
@@ -1016,11 +1017,11 @@ function openGenerateModal(){
   const picked=new Set(dias.map((_,i)=>i)); // all selected by default
 
   let h=`<div class="ov" id="gen-ov"><div class="gen-modal">
-    <h4>✨ Generar men&uacute;</h4>
-    <p>Elige los d&iacute;as para los que quieres generar cenas y fin de semana. Los d&iacute;as no seleccionados no se tocan.</p>
+    <h4>✨ Generar menú</h4>
+    <p>Elige los días para los que quieres generar cenas y fin de semana. Los días no seleccionados no se tocan.</p>
     <div class="gen-mode-toggle">
       <button class="gen-mode-btn on" data-gmode="range">Desde / hasta</button>
-      <button class="gen-mode-btn" data-gmode="pick">D&iacute;as concretos</button>
+      <button class="gen-mode-btn" data-gmode="pick">Días concretos</button>
     </div>
     <div id="gen-range-panel">
       <div class="gen-range">
@@ -1086,8 +1087,8 @@ function generateMenu(selectedIdxs){
 
   // Category groups by slot role
   const SLOT0_CATS=['verd','leg','cer'];         // 1er plato: vegetal, legumbre o cereal
-  const SLOT1_CATS=['cab','car','psb','psa','hue']; // 2º plato: siempre prote&iacute;na
-  const SLOT2_CATS=['fru','lac'];                 // Postre: fruta o l&aacute;cteo
+  const SLOT1_CATS=['cab','car','psb','psa','hue']; // 2º plato: siempre proteína
+  const SLOT2_CATS=['fru','lac'];                 // Postre: fruta o lácteo
 
   function poolFor(cats){
     const favs=allFavs.filter(it=>cats.includes(it.c));
@@ -1102,16 +1103,16 @@ function generateMenu(selectedIdxs){
 
   const allFavs=getFavorites(null);
   const fallbacks={
-    fru:[{t:'Fruta',c:'fru'},{t:'Sand&iacute;a',c:'fru'},{t:'Mel&oacute;n',c:'fru'}],
+    fru:[{t:'Fruta',c:'fru'},{t:'Sandía',c:'fru'},{t:'Melón',c:'fru'}],
     verd:[{t:'Crema de verduras',c:'verd'},{t:'Ensalada',c:'verd'},{t:'Menestra',c:'verd'},{t:'Gazpacho',c:'verd'}],
     leg:[{t:'Lentejas',c:'leg'},{t:'Garbanzos',c:'leg'},{t:'Alubias',c:'leg'}],
-    cer:[{t:'Arroz',c:'cer'},{t:'Pasta',c:'cer'},{t:'Pur&eacute; de patata',c:'cer'},{t:'Sopa',c:'cer'}],
+    cer:[{t:'Arroz',c:'cer'},{t:'Pasta',c:'cer'},{t:'Puré de patata',c:'cer'},{t:'Sopa',c:'cer'}],
     hue:[{t:'Tortilla francesa',c:'hue'},{t:'Revuelto de verduras',c:'hue'},{t:'Huevo duro',c:'hue'}],
     lac:[{t:'Yogur',c:'lac'}],
     psb:[{t:'Merluza',c:'psb'},{t:'Gallo',c:'psb'}],
-    psa:[{t:'Salm&oacute;n',c:'psa'}],
+    psa:[{t:'Salmón',c:'psa'}],
     cab:[{t:'Pollo plancha',c:'cab'},{t:'Pavo',c:'cab'},{t:'Pollo al curry',c:'cab'}],
-    car:[{t:'Filete ternera',c:'car'},{t:'Burguer',c:'car'},{t:'Alb&oacute;ndigas',c:'car'}],
+    car:[{t:'Filete ternera',c:'car'},{t:'Burguer',c:'car'},{t:'Albóndigas',c:'car'}],
   };
 
   const used=new Set(); // track recently used names to avoid repetition
@@ -1151,7 +1152,7 @@ function generateMenu(selectedIdxs){
     const isWeekend=!!dia.familia;
     const isSchoolDay=!isWeekend;
 
-    // get what ni&ntilde;os already had at cole today (avoid repeat same protein)
+    // get what niños already had at cole today (avoid repeat same protein)
     const coleProteins=isSchoolDay?
       ((dia.ninos||{}).comida||[]).filter(it=>SLOT1_CATS.includes(it.c)).map(it=>it.t):[];
     const coleFirsts=isSchoolDay?
