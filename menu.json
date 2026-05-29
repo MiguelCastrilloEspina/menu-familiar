@@ -1,0 +1,1004 @@
+{
+  "semanas": [
+    {
+      "label": "26 may ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ 31 may",
+      "dias": [
+        {
+          "dow": "Mar",
+          "date": "26",
+          "month": "may",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Patatas guisadas con bacalao",
+                "c": "psb"
+              },
+              {
+                "t": "Cinta de lomo con champis",
+                "c": "car"
+              },
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Batido frutas + yogur",
+                "c": "fru"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Crema calabacÃÂÃÂÃÂÃÂ­n",
+                "c": "verd"
+              },
+              {
+                "t": "Tortilla francesa",
+                "c": "hue"
+              },
+              {
+                "t": "Yogur",
+                "c": "lac"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Patatas con bacalao",
+                "c": "psb"
+              },
+              {
+                "t": "Cinta de lomo con champis",
+                "c": "car"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Crema calabacÃÂÃÂÃÂÃÂ­n",
+                "c": "verd"
+              },
+              {
+                "t": "Tortilla francesa",
+                "c": "hue"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "MiÃÂÃÂÃÂÃÂ©",
+          "date": "27",
+          "month": "may",
+          "ninos": {
+            "comida": [
+              {
+                "t": "JudÃÂÃÂÃÂÃÂ­as blancas con verduras",
+                "c": "leg"
+              },
+              {
+                "t": "Merluza a la jardinera",
+                "c": "psb"
+              },
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Tortitas maÃÂÃÂÃÂÃÂ­z + fruta",
+                "c": "fru"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Arroz con verduras",
+                "c": "cer"
+              },
+              {
+                "t": "Dados de pollo",
+                "c": "cab"
+              },
+              {
+                "t": "Yogur",
+                "c": "lac"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "JudÃÂÃÂÃÂÃÂ­as blancas",
+                "c": "leg"
+              },
+              {
+                "t": "Dados de pollo",
+                "c": "cab"
+              },
+              {
+                "t": "Merluza jardinera",
+                "c": "psb"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Arroz con verduras",
+                "c": "cer"
+              },
+              {
+                "t": "Dados de pollo",
+                "c": "cab"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Jue",
+          "date": "28",
+          "month": "may",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Guisantes con pavo",
+                "c": "verd"
+              },
+              {
+                "t": "Pollo con pimiento y calabaza",
+                "c": "cab"
+              },
+              {
+                "t": "Yogur",
+                "c": "lac"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Tortilla calabacÃÂÃÂÃÂÃÂ­n + patata",
+                "c": "hue"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              },
+              {
+                "t": "Yogur",
+                "c": "lac"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Guisantes con pavo",
+                "c": "verd"
+              },
+              {
+                "t": "Pollo con pimiento",
+                "c": "cab"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Tortilla calabacÃÂÃÂÃÂÃÂ­n + patata",
+                "c": "hue"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Vie",
+          "date": "29",
+          "month": "may",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Espirales con verduras",
+                "c": "cer"
+              },
+              {
+                "t": "Pavo con zanahoria",
+                "c": "cab"
+              },
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Pizza casera",
+                "c": "piz"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              },
+              {
+                "t": "Yogur",
+                "c": "lac"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Espirales con verduras",
+                "c": "cer"
+              },
+              {
+                "t": "Pavo con zanahoria",
+                "c": "cab"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Pizza casera (SG)",
+                "c": "piz"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "SÃÂÃÂÃÂÃÂ¡b",
+          "date": "30",
+          "month": "may",
+          "familia": {
+            "comida": [
+              {
+                "t": "Legumbres",
+                "c": "leg"
+              },
+              {
+                "t": "Cereales / pasta",
+                "c": "cer"
+              },
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Pasta",
+                "c": "cer"
+              },
+              {
+                "t": "SalmÃÂÃÂÃÂÃÂ³n",
+                "c": "psa"
+              },
+              {
+                "t": "Yogur",
+                "c": "lac"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Dom",
+          "date": "31",
+          "month": "may",
+          "familia": {
+            "comida": [
+              {
+                "t": "Cereales / pasta",
+                "c": "cer"
+              },
+              {
+                "t": "Carne roja",
+                "c": "car"
+              },
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Tortilla + jamÃÂÃÂÃÂÃÂ³n y queso",
+                "c": "hue"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              },
+              {
+                "t": "Yogur",
+                "c": "lac"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "1 jun ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ 7 jun",
+      "dias": [
+        {
+          "dow": "Lun",
+          "date": "1",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Arroz con tomate",
+                "c": "cer"
+              },
+              {
+                "t": "Ternera con patatas",
+                "c": "car"
+              },
+              {
+                "t": "Yogur",
+                "c": "lac"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Crema de calabacÃÂÃÂÃÂÃÂ­n",
+                "c": "verd"
+              },
+              {
+                "t": "Revuelto de verduras",
+                "c": "hue"
+              },
+              {
+                "t": "Yogur",
+                "c": "lac"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Arroz con tomate",
+                "c": "cer"
+              },
+              {
+                "t": "Ternera con patatas",
+                "c": "car"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Crema calabacÃÂÃÂÃÂÃÂ­n",
+                "c": "verd"
+              },
+              {
+                "t": "Revuelto verduras",
+                "c": "hue"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Mar",
+          "date": "2",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Alubias blancas con verduras",
+                "c": "leg"
+              },
+              {
+                "t": "Tortilla espaÃÂÃÂÃÂÃÂ±ola",
+                "c": "hue"
+              },
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Sopa de estrellas",
+                "c": "cer"
+              },
+              {
+                "t": "Pechuga de pavo",
+                "c": "cab"
+              },
+              {
+                "t": "Yogur",
+                "c": "lac"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Alubias blancas",
+                "c": "leg"
+              },
+              {
+                "t": "Tortilla espaÃÂÃÂÃÂÃÂ±ola",
+                "c": "hue"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Sopa de estrellas",
+                "c": "cer"
+              },
+              {
+                "t": "Pechuga de pavo",
+                "c": "cab"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "MiÃÂÃÂÃÂÃÂ©",
+          "date": "3",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Macarrones con tomate",
+                "c": "cer"
+              },
+              {
+                "t": "Merluza con pimientos",
+                "c": "psb"
+              },
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Crema de guisantes",
+                "c": "verd"
+              },
+              {
+                "t": "Huevo duro con tomate",
+                "c": "hue"
+              },
+              {
+                "t": "Yogur",
+                "c": "lac"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Macarrones con tomate",
+                "c": "cer"
+              },
+              {
+                "t": "Merluza con pimientos",
+                "c": "psb"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Crema guisantes",
+                "c": "verd"
+              },
+              {
+                "t": "Huevo duro",
+                "c": "hue"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Jue",
+          "date": "4",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Crema de calabaza",
+                "c": "verd"
+              },
+              {
+                "t": "Pollo en salsa de setas",
+                "c": "cab"
+              },
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Arroz con verduras",
+                "c": "cer"
+              },
+              {
+                "t": "SalmÃÂÃÂÃÂÃÂ³n a la plancha",
+                "c": "psa"
+              },
+              {
+                "t": "Yogur",
+                "c": "lac"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Crema de calabaza",
+                "c": "verd"
+              },
+              {
+                "t": "Pollo con setas",
+                "c": "cab"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Arroz con verduras",
+                "c": "cer"
+              },
+              {
+                "t": "SalmÃÂÃÂÃÂÃÂ³n a la plancha",
+                "c": "psa"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Vie",
+          "date": "5",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Lentejas a la hortelana",
+                "c": "leg"
+              },
+              {
+                "t": "Merluza con tomate",
+                "c": "psb"
+              },
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Pizza casera",
+                "c": "piz"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              },
+              {
+                "t": "Yogur",
+                "c": "lac"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Lentejas hortelana",
+                "c": "leg"
+              },
+              {
+                "t": "Merluza con tomate",
+                "c": "psb"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Pizza casera (SG)",
+                "c": "piz"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "SÃÂÃÂÃÂÃÂ¡b",
+          "date": "6",
+          "month": "jun",
+          "familia": {
+            "comida": [
+              {
+                "t": "Arroz 3 delicias",
+                "c": "cer"
+              },
+              {
+                "t": "Filete de ternera",
+                "c": "car"
+              },
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Ensalada",
+                "c": "verd"
+              },
+              {
+                "t": "Hamburguesa casera",
+                "c": "car"
+              },
+              {
+                "t": "Yogur",
+                "c": "lac"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Dom",
+          "date": "7",
+          "month": "jun",
+          "familia": {
+            "comida": [
+              {
+                "t": "Pollo al curry con arroz",
+                "c": "cab"
+              },
+              {
+                "t": "Verduras al vapor",
+                "c": "verd"
+              },
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Fruta",
+                "c": "fru"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Gazpacho",
+                "c": "verd"
+              },
+              {
+                "t": "Tortilla francesa",
+                "c": "hue"
+              },
+              {
+                "t": "Yogur",
+                "c": "lac"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "shopItems": [
+    {
+      "cat": "Carnes y aves",
+      "items": [
+        {
+          "n": "Cinta de lomo",
+          "store": "CarnicerÃÂÃÂÃÂÃÂ­a",
+          "checked": false
+        },
+        {
+          "n": "Pollo (dados)",
+          "store": "CarnicerÃÂÃÂÃÂÃÂ­a",
+          "checked": false
+        },
+        {
+          "n": "Pavo",
+          "store": "CarnicerÃÂÃÂÃÂÃÂ­a",
+          "checked": false
+        },
+        {
+          "n": "Carne roja fin de semana",
+          "store": "CarnicerÃÂÃÂÃÂÃÂ­a",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "cat": "Pescados",
+      "items": [
+        {
+          "n": "Bacalao",
+          "store": "Mercadona",
+          "checked": false
+        },
+        {
+          "n": "Merluza",
+          "store": "Mercadona",
+          "checked": false
+        },
+        {
+          "n": "SalmÃÂÃÂÃÂÃÂ³n",
+          "store": "Mercadona",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "cat": "Huevos y lÃÂÃÂÃÂÃÂ¡cteos",
+      "items": [
+        {
+          "n": "Huevos (x12)",
+          "store": "DÃÂÃÂÃÂÃÂ­a",
+          "checked": false
+        },
+        {
+          "n": "Yogures naturales",
+          "store": "DÃÂÃÂÃÂÃÂ­a",
+          "checked": false
+        },
+        {
+          "n": "JamÃÂÃÂÃÂÃÂ³n york",
+          "store": "DÃÂÃÂÃÂÃÂ­a",
+          "checked": false
+        },
+        {
+          "n": "Queso",
+          "store": "DÃÂÃÂÃÂÃÂ­a",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "cat": "Verduras",
+      "items": [
+        {
+          "n": "Patatas",
+          "store": "FruterÃÂÃÂÃÂÃÂ­a",
+          "checked": false
+        },
+        {
+          "n": "CalabacÃÂÃÂÃÂÃÂ­n",
+          "store": "FruterÃÂÃÂÃÂÃÂ­a",
+          "checked": false
+        },
+        {
+          "n": "Calabaza",
+          "store": "FruterÃÂÃÂÃÂÃÂ­a",
+          "checked": false
+        },
+        {
+          "n": "Pimiento",
+          "store": "FruterÃÂÃÂÃÂÃÂ­a",
+          "checked": false
+        },
+        {
+          "n": "Zanahoria",
+          "store": "FruterÃÂÃÂÃÂÃÂ­a",
+          "checked": false
+        },
+        {
+          "n": "Guisantes",
+          "store": "Mercadona",
+          "checked": false
+        },
+        {
+          "n": "JudÃÂÃÂÃÂÃÂ­as blancas (bote)",
+          "store": "Mercadona",
+          "checked": false
+        },
+        {
+          "n": "Tomate",
+          "store": "FruterÃÂÃÂÃÂÃÂ­a",
+          "checked": false
+        },
+        {
+          "n": "tÃÂÃÂÃÂÃÂ© negro",
+          "store": "Mercadona",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "cat": "Despensa",
+      "items": [
+        {
+          "n": "Espirales",
+          "store": "Mercadona",
+          "checked": false
+        },
+        {
+          "n": "Arroz",
+          "store": "Mercadona",
+          "checked": false
+        },
+        {
+          "n": "Base pizza SG",
+          "store": "Mercadona",
+          "checked": false
+        },
+        {
+          "n": "Tortitas de maÃÂÃÂÃÂÃÂ­z",
+          "store": "Costco",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "cat": "Fruta",
+      "items": [
+        {
+          "n": "Fruta variada",
+          "store": "FruterÃÂÃÂÃÂÃÂ­a",
+          "checked": false
+        }
+      ]
+    }
+  ],
+  "starSet": [
+    "Verduras|Menestra",
+    "Verduras|Crema calabacÃÂÃÂÃÂÃÂ­n",
+    "Verduras|Crema calabaza",
+    "Huevos|Tortilla francesa",
+    "Huevos|Tortilla patata",
+    "Legumbres|Garbanzos Foodtropia",
+    "Legumbres|Lentejas",
+    "Cereales|Arroz",
+    "Cereales|Macarrones",
+    "Cereales|Pizza casera",
+    "Cereales|Croquetas",
+    "Pescado blanco|Merluza",
+    "Pescado azul|SalmÃÂÃÂÃÂÃÂ³n",
+    "Carne blanca|Pollo plancha",
+    "Carne blanca|Pollo al curry",
+    "Carne roja|Burguer",
+    "Carne roja|BoloÃÂÃÂÃÂÃÂ±esa",
+    "Carne roja|AlbÃÂÃÂÃÂÃÂ³ndigas"
+  ],
+  "mealStars": [],
+  "ideaExtras": {},
+  "stores": [
+    "FruterÃÂÃÂÃÂÃÂ­a",
+    "CarnicerÃÂÃÂÃÂÃÂ­a",
+    "Mercadona",
+    "DÃÂÃÂÃÂÃÂ­a",
+    "Costco"
+  ],
+  "savedAt": "2026-05-29T12:11:44.698Z"
+}
