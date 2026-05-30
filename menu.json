@@ -1,7 +1,7 @@
 {
   "semanas": [
     {
-      "label": "26 may Ã¢ÂÂ 31 may",
+      "label": "26 may ÃÂ¢ÃÂÃÂ 31 may",
       "dias": [
         {
           "dow": "Mar",
@@ -372,7 +372,7 @@
       ]
     },
     {
-      "label": "1 jun Ã¢ÂÂ 7 jun",
+      "label": "1 jun ÃÂ¢ÃÂÃÂ 7 jun",
       "dias": [
         {
           "dow": "Lun",
@@ -839,7 +839,7 @@
           "checked": false
         },
         {
-          "n": "AÃ±ojo de ternera",
+          "n": "AÃÂ±ojo de ternera",
           "store": "Costco",
           "checked": false
         }
@@ -974,17 +974,17 @@
           "checked": false
         },
         {
-          "n": "ChampÃº",
+          "n": "ChampÃÂº",
           "store": "Costco",
           "checked": false
         },
         {
-          "n": "CafÃ©",
+          "n": "CafÃÂ©",
           "store": "Costco",
           "checked": false
         },
         {
-          "n": "Limpiador superfÃ­cies",
+          "n": "Limpiador superfÃÂ­cies",
           "store": "Costco",
           "checked": false
         }
@@ -1026,7 +1026,7 @@
       ]
     },
     {
-      "cat": "Huevos y lÃ¡cteos",
+      "cat": "Huevos y lÃÂ¡cteos",
       "items": [
         {
           "n": "Leche entera",
@@ -1070,5 +1070,5 @@
     "Dia",
     "Costco"
   ],
-  "savedAt": "2026-05-30T07:48:11.232Z"
+  "savedAt": "2026-05-30T07:58:31.365Z"
 }
