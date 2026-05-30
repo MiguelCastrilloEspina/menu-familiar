@@ -952,6 +952,31 @@
           "n": "Fairy",
           "store": "Costco",
           "checked": false
+        },
+        {
+          "n": "Gyozas",
+          "store": "Costco",
+          "checked": false
+        },
+        {
+          "n": "Burrata",
+          "store": "Costco",
+          "checked": false
+        },
+        {
+          "n": "Desodorante",
+          "store": "Costco",
+          "checked": false
+        },
+        {
+          "n": "Gel ducha",
+          "store": "Costco",
+          "checked": false
+        },
+        {
+          "n": "Champú",
+          "store": "Costco",
+          "checked": false
         }
       ]
     },
@@ -989,6 +1014,21 @@
           "checked": false
         }
       ]
+    },
+    {
+      "cat": "Huevos y lácteos",
+      "items": [
+        {
+          "n": "Leche entera",
+          "store": "Costco",
+          "checked": false
+        },
+        {
+          "n": "Leche desnatada",
+          "store": "Costco",
+          "checked": false
+        }
+      ]
     }
   ],
   "starSet": [
@@ -1020,5 +1060,5 @@
     "Dia",
     "Costco"
   ],
-  "savedAt": "2026-05-30T07:36:25.881Z"
+  "savedAt": "2026-05-30T07:40:34.342Z"
 }
