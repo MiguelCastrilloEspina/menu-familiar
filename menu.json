@@ -977,6 +977,16 @@
           "n": "Champú",
           "store": "Costco",
           "checked": false
+        },
+        {
+          "n": "Café",
+          "store": "Costco",
+          "checked": false
+        },
+        {
+          "n": "Limpiador superfícies",
+          "store": "Costco",
+          "checked": false
         }
       ]
     },
@@ -1060,5 +1070,5 @@
     "Dia",
     "Costco"
   ],
-  "savedAt": "2026-05-30T07:40:34.342Z"
+  "savedAt": "2026-05-30T07:44:05.654Z"
 }
