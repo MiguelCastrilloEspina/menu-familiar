@@ -1,7 +1,7 @@
 {
   "semanas": [
     {
-      "label": "26 may – 31 may",
+      "label": "26 may â 31 may",
       "dias": [
         {
           "dow": "Mar",
@@ -372,7 +372,7 @@
       ]
     },
     {
-      "label": "1 jun – 7 jun",
+      "label": "1 jun â 7 jun",
       "dias": [
         {
           "dow": "Lun",
@@ -819,8 +819,8 @@
       "cat": "Carnes y aves",
       "items": [
         {
-          "n": "Cinta de lomo",
-          "store": "Carniceria",
+          "n": "Lomitos",
+          "store": "Costco",
           "checked": false
         },
         {
@@ -834,8 +834,13 @@
           "checked": false
         },
         {
-          "n": "Carne roja fin de semana",
-          "store": "Carniceria",
+          "n": "Carne picada",
+          "store": "Costco",
+          "checked": false
+        },
+        {
+          "n": "Añojo de ternera",
+          "store": "Costco",
           "checked": false
         }
       ]
@@ -845,17 +850,17 @@
       "items": [
         {
           "n": "Bacalao",
-          "store": "Mercadona",
+          "store": "Costco",
           "checked": false
         },
         {
           "n": "Merluza",
-          "store": "Mercadona",
+          "store": "Costco",
           "checked": false
         },
         {
           "n": "Salmon",
-          "store": "Mercadona",
+          "store": "Costco",
           "checked": false
         }
       ]
@@ -870,7 +875,7 @@
         },
         {
           "n": "Yogures naturales",
-          "store": "Dia",
+          "store": "Costco",
           "checked": false
         },
         {
@@ -895,7 +900,7 @@
         },
         {
           "n": "Calabacin",
-          "store": "Fruteria",
+          "store": "Costco",
           "checked": false
         },
         {
@@ -927,6 +932,26 @@
           "n": "Tomate",
           "store": "Fruteria",
           "checked": false
+        },
+        {
+          "n": "Tomate frito",
+          "store": "Costco",
+          "checked": false
+        },
+        {
+          "n": "Pepitas",
+          "store": "Costco",
+          "checked": false
+        },
+        {
+          "n": "Bebibles",
+          "store": "Costco",
+          "checked": false
+        },
+        {
+          "n": "Fairy",
+          "store": "Costco",
+          "checked": false
         }
       ]
     },
@@ -940,7 +965,7 @@
         },
         {
           "n": "Arroz",
-          "store": "Mercadona",
+          "store": "Costco",
           "checked": false
         },
         {
@@ -960,7 +985,7 @@
       "items": [
         {
           "n": "Fruta variada",
-          "store": "Fruteria",
+          "store": "Costco",
           "checked": false
         }
       ]
@@ -995,5 +1020,5 @@
     "Dia",
     "Costco"
   ],
-  "savedAt": "2026-05-29T14:27:39.982Z"
+  "savedAt": "2026-05-30T07:36:25.881Z"
 }
