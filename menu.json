@@ -395,7 +395,7 @@
             ],
             "merienda": [
               {
-                "t": "Fruta",
+                "t": "Plátano",
                 "c": "fru"
               }
             ],
@@ -537,8 +537,8 @@
             ],
             "merienda": [
               {
-                "t": "Fruta",
-                "c": "fru"
+                "t": "Tortitas maíz",
+                "c": "cer"
               }
             ],
             "cena": [
@@ -608,7 +608,7 @@
             ],
             "merienda": [
               {
-                "t": "Fruta",
+                "t": "Batido fresquito",
                 "c": "fru"
               }
             ],
@@ -679,7 +679,7 @@
             ],
             "merienda": [
               {
-                "t": "Fruta",
+                "t": "Fruta Mirasierra",
                 "c": "fru"
               }
             ],
@@ -750,7 +750,7 @@
             ],
             "merienda": [
               {
-                "t": "Fruta",
+                "t": "Fruta variada",
                 "c": "fru"
               }
             ],
@@ -791,7 +791,7 @@
             ],
             "merienda": [
               {
-                "t": "Fruta",
+                "t": "Fruta variada",
                 "c": "fru"
               }
             ],
@@ -820,22 +820,22 @@
       "items": [
         {
           "n": "Cinta de lomo",
-          "store": "CarnicerÃ­a",
+          "store": "CarnicerÃÂ­a",
           "checked": false
         },
         {
           "n": "Pollo (dados)",
-          "store": "CarnicerÃ­a",
+          "store": "CarnicerÃÂ­a",
           "checked": false
         },
         {
           "n": "Pavo",
-          "store": "CarnicerÃ­a",
+          "store": "CarnicerÃÂ­a",
           "checked": false
         },
         {
           "n": "Carne roja fin de semana",
-          "store": "CarnicerÃ­a",
+          "store": "CarnicerÃÂ­a",
           "checked": false
         }
       ]
@@ -854,33 +854,33 @@
           "checked": false
         },
         {
-          "n": "SalmÃ³n",
+          "n": "SalmÃÂ³n",
           "store": "Mercadona",
           "checked": false
         }
       ]
     },
     {
-      "cat": "Huevos y lÃ¡cteos",
+      "cat": "Huevos y lÃÂ¡cteos",
       "items": [
         {
           "n": "Huevos (x12)",
-          "store": "DÃ­a",
+          "store": "DÃÂ­a",
           "checked": false
         },
         {
           "n": "Yogures naturales",
-          "store": "DÃ­a",
+          "store": "DÃÂ­a",
           "checked": false
         },
         {
-          "n": "JamÃ³n york",
-          "store": "DÃ­a",
+          "n": "JamÃÂ³n york",
+          "store": "DÃÂ­a",
           "checked": false
         },
         {
           "n": "Queso",
-          "store": "DÃ­a",
+          "store": "DÃÂ­a",
           "checked": false
         }
       ]
@@ -890,27 +890,27 @@
       "items": [
         {
           "n": "Patatas",
-          "store": "FruterÃ­a",
+          "store": "FruterÃÂ­a",
           "checked": false
         },
         {
-          "n": "CalabacÃ­n",
-          "store": "FruterÃ­a",
+          "n": "CalabacÃÂ­n",
+          "store": "FruterÃÂ­a",
           "checked": false
         },
         {
           "n": "Calabaza",
-          "store": "FruterÃ­a",
+          "store": "FruterÃÂ­a",
           "checked": false
         },
         {
           "n": "Pimiento",
-          "store": "FruterÃ­a",
+          "store": "FruterÃÂ­a",
           "checked": false
         },
         {
           "n": "Zanahoria",
-          "store": "FruterÃ­a",
+          "store": "FruterÃÂ­a",
           "checked": false
         },
         {
@@ -919,13 +919,13 @@
           "checked": false
         },
         {
-          "n": "JudÃ­as blancas (bote)",
+          "n": "JudÃÂ­as blancas (bote)",
           "store": "Mercadona",
           "checked": false
         },
         {
           "n": "Tomate",
-          "store": "FruterÃ­a",
+          "store": "FruterÃÂ­a",
           "checked": false
         }
       ]
@@ -949,7 +949,7 @@
           "checked": false
         },
         {
-          "n": "Tortitas de maÃ­z",
+          "n": "Tortitas de maÃÂ­z",
           "store": "Costco",
           "checked": false
         }
@@ -960,7 +960,7 @@
       "items": [
         {
           "n": "Fruta variada",
-          "store": "FruterÃ­a",
+          "store": "FruterÃÂ­a",
           "checked": false
         }
       ]
@@ -968,7 +968,7 @@
   ],
   "starSet": [
     "Verduras|Menestra",
-    "Verduras|Crema calabacÃ­n",
+    "Verduras|Crema calabacÃÂ­n",
     "Verduras|Crema calabaza",
     "Huevos|Tortilla francesa",
     "Huevos|Tortilla patata",
@@ -979,21 +979,21 @@
     "Cereales|Pizza casera",
     "Cereales|Croquetas",
     "Pescado blanco|Merluza",
-    "Pescado azul|SalmÃ³n",
+    "Pescado azul|SalmÃÂ³n",
     "Carne blanca|Pollo plancha",
     "Carne blanca|Pollo al curry",
     "Carne roja|Burguer",
-    "Carne roja|BoloÃ±esa",
-    "Carne roja|AlbÃ³ndigas"
+    "Carne roja|BoloÃÂ±esa",
+    "Carne roja|AlbÃÂ³ndigas"
   ],
   "mealStars": [],
   "ideaExtras": {},
   "stores": [
-    "FruterÃ­a",
-    "CarnicerÃ­a",
+    "FruterÃÂ­a",
+    "CarnicerÃÂ­a",
     "Mercadona",
-    "DÃ­a",
+    "DÃÂ­a",
     "Costco"
   ],
-  "savedAt": "2026-06-01T14:24:30.486Z"
+  "savedAt": "2026-06-01T14:45:47.207Z"
 }
