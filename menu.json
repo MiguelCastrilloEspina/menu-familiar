@@ -476,7 +476,7 @@
                 "c": "cer"
               },
               {
-                "t": "Carne blanca",
+                "t": "Pollo plancha",
                 "c": "cab"
               },
               {
@@ -543,16 +543,16 @@
             ],
             "cena": [
               {
-                "t": "Verduras",
+                "t": "Calabacín",
                 "c": "verd"
               },
               {
-                "t": "Huevos",
+                "t": "Tortilla francesa",
                 "c": "hue"
               },
               {
-                "t": "Fruta",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           },
@@ -820,22 +820,22 @@
       "items": [
         {
           "n": "Cinta de lomo",
-          "store": "CarnicerÃÂ­a",
+          "store": "CarnicerÃÂÃÂ­a",
           "checked": false
         },
         {
           "n": "Pollo (dados)",
-          "store": "CarnicerÃÂ­a",
+          "store": "CarnicerÃÂÃÂ­a",
           "checked": false
         },
         {
           "n": "Pavo",
-          "store": "CarnicerÃÂ­a",
+          "store": "CarnicerÃÂÃÂ­a",
           "checked": false
         },
         {
           "n": "Carne roja fin de semana",
-          "store": "CarnicerÃÂ­a",
+          "store": "CarnicerÃÂÃÂ­a",
           "checked": false
         }
       ]
@@ -854,33 +854,33 @@
           "checked": false
         },
         {
-          "n": "SalmÃÂ³n",
+          "n": "SalmÃÂÃÂ³n",
           "store": "Mercadona",
           "checked": false
         }
       ]
     },
     {
-      "cat": "Huevos y lÃÂ¡cteos",
+      "cat": "Huevos y lÃÂÃÂ¡cteos",
       "items": [
         {
           "n": "Huevos (x12)",
-          "store": "DÃÂ­a",
+          "store": "DÃÂÃÂ­a",
           "checked": false
         },
         {
           "n": "Yogures naturales",
-          "store": "DÃÂ­a",
+          "store": "DÃÂÃÂ­a",
           "checked": false
         },
         {
-          "n": "JamÃÂ³n york",
-          "store": "DÃÂ­a",
+          "n": "JamÃÂÃÂ³n york",
+          "store": "DÃÂÃÂ­a",
           "checked": false
         },
         {
           "n": "Queso",
-          "store": "DÃÂ­a",
+          "store": "DÃÂÃÂ­a",
           "checked": false
         }
       ]
@@ -890,27 +890,27 @@
       "items": [
         {
           "n": "Patatas",
-          "store": "FruterÃÂ­a",
+          "store": "FruterÃÂÃÂ­a",
           "checked": false
         },
         {
-          "n": "CalabacÃÂ­n",
-          "store": "FruterÃÂ­a",
+          "n": "CalabacÃÂÃÂ­n",
+          "store": "FruterÃÂÃÂ­a",
           "checked": false
         },
         {
           "n": "Calabaza",
-          "store": "FruterÃÂ­a",
+          "store": "FruterÃÂÃÂ­a",
           "checked": false
         },
         {
           "n": "Pimiento",
-          "store": "FruterÃÂ­a",
+          "store": "FruterÃÂÃÂ­a",
           "checked": false
         },
         {
           "n": "Zanahoria",
-          "store": "FruterÃÂ­a",
+          "store": "FruterÃÂÃÂ­a",
           "checked": false
         },
         {
@@ -919,13 +919,13 @@
           "checked": false
         },
         {
-          "n": "JudÃÂ­as blancas (bote)",
+          "n": "JudÃÂÃÂ­as blancas (bote)",
           "store": "Mercadona",
           "checked": false
         },
         {
           "n": "Tomate",
-          "store": "FruterÃÂ­a",
+          "store": "FruterÃÂÃÂ­a",
           "checked": false
         }
       ]
@@ -949,7 +949,7 @@
           "checked": false
         },
         {
-          "n": "Tortitas de maÃÂ­z",
+          "n": "Tortitas de maÃÂÃÂ­z",
           "store": "Costco",
           "checked": false
         }
@@ -960,7 +960,7 @@
       "items": [
         {
           "n": "Fruta variada",
-          "store": "FruterÃÂ­a",
+          "store": "FruterÃÂÃÂ­a",
           "checked": false
         }
       ]
@@ -968,7 +968,7 @@
   ],
   "starSet": [
     "Verduras|Menestra",
-    "Verduras|Crema calabacÃÂ­n",
+    "Verduras|Crema calabacÃÂÃÂ­n",
     "Verduras|Crema calabaza",
     "Huevos|Tortilla francesa",
     "Huevos|Tortilla patata",
@@ -979,21 +979,21 @@
     "Cereales|Pizza casera",
     "Cereales|Croquetas",
     "Pescado blanco|Merluza",
-    "Pescado azul|SalmÃÂ³n",
+    "Pescado azul|SalmÃÂÃÂ³n",
     "Carne blanca|Pollo plancha",
     "Carne blanca|Pollo al curry",
     "Carne roja|Burguer",
-    "Carne roja|BoloÃÂ±esa",
-    "Carne roja|AlbÃÂ³ndigas"
+    "Carne roja|BoloÃÂÃÂ±esa",
+    "Carne roja|AlbÃÂÃÂ³ndigas"
   ],
   "mealStars": [],
   "ideaExtras": {},
   "stores": [
-    "FruterÃÂ­a",
-    "CarnicerÃÂ­a",
+    "FruterÃÂÃÂ­a",
+    "CarnicerÃÂÃÂ­a",
     "Mercadona",
-    "DÃÂ­a",
+    "DÃÂÃÂ­a",
     "Costco"
   ],
-  "savedAt": "2026-06-01T14:45:47.207Z"
+  "savedAt": "2026-06-01T15:14:58.775Z"
 }
