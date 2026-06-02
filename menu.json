@@ -480,20 +480,20 @@
                 "c": "cab"
               },
               {
-                "t": "Fruta",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           },
           "adultos": {
             "comida": [
               {
-                "t": "Alubias blancas",
-                "c": "leg"
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Tortilla española",
-                "c": "hue"
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "",
@@ -559,12 +559,12 @@
           "adultos": {
             "comida": [
               {
-                "t": "Macarrones con tomate",
-                "c": "cer"
+                "t": "Verduras variadas",
+                "c": "verd"
               },
               {
-                "t": "Merluza con pimientos",
-                "c": "psb"
+                "t": "Ensalada cus cus y queso",
+                "c": "cer"
               },
               {
                 "t": "",
@@ -614,7 +614,7 @@
             ],
             "cena": [
               {
-                "t": "Cereales",
+                "t": "Arroz",
                 "c": "cer"
               },
               {
@@ -622,8 +622,8 @@
                 "c": "psa"
               },
               {
-                "t": "Fruta",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           },
@@ -644,7 +644,7 @@
             ],
             "cena": [
               {
-                "t": "Cereales",
+                "t": "Arroz",
                 "c": "cer"
               },
               {
@@ -693,8 +693,8 @@
                 "c": "cab"
               },
               {
-                "t": "Fruta",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           },
@@ -764,7 +764,7 @@
                 "c": "psa"
               },
               {
-                "t": "Lácteos",
+                "t": "Yogur",
                 "c": "lac"
               }
             ]
@@ -777,12 +777,12 @@
           "familia": {
             "comida": [
               {
-                "t": "Cereales",
-                "c": "cer"
+                "t": "Verdudas + arroz",
+                "c": "verd"
               },
               {
-                "t": "Huevos",
-                "c": "hue"
+                "t": "Lomitos",
+                "c": "car"
               },
               {
                 "t": "Fruta",
@@ -801,11 +801,11 @@
                 "c": "verd"
               },
               {
-                "t": "Carne blanca",
-                "c": "cab"
+                "t": "Huevos",
+                "c": "hue"
               },
               {
-                "t": "Lácteos",
+                "t": "Yogur",
                 "c": "lac"
               }
             ]
@@ -995,5 +995,5 @@
     "DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
     "Costco"
   ],
-  "savedAt": "2026-06-02T07:19:01.956Z"
+  "savedAt": "2026-06-02T07:23:25.283Z"
 }
