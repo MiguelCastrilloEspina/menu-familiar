@@ -18,7 +18,7 @@
                 "c": "car"
               },
               {
-                "t": "Fruta",
+                "t": "Postre",
                 "c": "fru"
               }
             ],
@@ -89,7 +89,7 @@
                 "c": "psb"
               },
               {
-                "t": "Fruta",
+                "t": "Postre",
                 "c": "fru"
               }
             ],
@@ -166,8 +166,8 @@
             ],
             "merienda": [
               {
-                "t": "Fruta",
-                "c": "fru"
+                "t": "Merienda",
+                "c": "mer"
               }
             ],
             "cena": [
@@ -231,14 +231,14 @@
                 "c": "cab"
               },
               {
-                "t": "Fruta",
+                "t": "Postre",
                 "c": "fru"
               }
             ],
             "merienda": [
               {
-                "t": "Fruta",
-                "c": "fru"
+                "t": "Merienda",
+                "c": "mer"
               }
             ],
             "cena": [
@@ -302,14 +302,14 @@
                 "c": "cer"
               },
               {
-                "t": "Fruta",
+                "t": "Postre",
                 "c": "fru"
               }
             ],
             "merienda": [
               {
-                "t": "Fruta",
-                "c": "fru"
+                "t": "Merienda",
+                "c": "mer"
               }
             ],
             "cena": [
@@ -343,14 +343,14 @@
                 "c": "car"
               },
               {
-                "t": "Fruta",
+                "t": "Postre",
                 "c": "fru"
               }
             ],
             "merienda": [
               {
-                "t": "Fruta",
-                "c": "fru"
+                "t": "Merienda",
+                "c": "mer"
               }
             ],
             "cena": [
@@ -395,18 +395,18 @@
             ],
             "merienda": [
               {
-                "t": "Plátano",
-                "c": "fru"
+                "t": "Merienda",
+                "c": "mer"
               }
             ],
             "cena": [
               {
-                "t": "Quiche",
+                "t": "Crema de calabacín",
                 "c": "verd"
               },
               {
-                "t": "Quiche",
-                "c": "piz"
+                "t": "Revuelto de verduras",
+                "c": "hue"
               },
               {
                 "t": "Yogur",
@@ -417,11 +417,11 @@
           "adultos": {
             "comida": [
               {
-                "t": "Tomate",
-                "c": "verd"
+                "t": "Arroz con tomate",
+                "c": "cer"
               },
               {
-                "t": "Salchichas",
+                "t": "Ternera con patatas",
                 "c": "car"
               },
               {
@@ -431,12 +431,12 @@
             ],
             "cena": [
               {
-                "t": "Quiche",
+                "t": "Crema calabacín",
                 "c": "verd"
               },
               {
-                "t": "Quiche",
-                "c": "piz"
+                "t": "Revuelto verduras",
+                "c": "hue"
               },
               {
                 "t": "",
@@ -460,23 +460,23 @@
                 "c": "hue"
               },
               {
-                "t": "Fruta",
+                "t": "Postre",
                 "c": "fru"
               }
             ],
             "merienda": [
               {
-                "t": "Merienda con mamá",
-                "c": "piz"
+                "t": "Merienda",
+                "c": "mer"
               }
             ],
             "cena": [
               {
-                "t": "Patatas",
+                "t": "Sopa de estrellas",
                 "c": "cer"
               },
               {
-                "t": "Pollo plancha",
+                "t": "Pechuga de pavo",
                 "c": "cab"
               },
               {
@@ -488,12 +488,12 @@
           "adultos": {
             "comida": [
               {
-                "t": "",
-                "c": "empty"
+                "t": "Alubias blancas",
+                "c": "leg"
               },
               {
-                "t": "",
-                "c": "empty"
+                "t": "Tortilla española",
+                "c": "hue"
               },
               {
                 "t": "",
@@ -502,11 +502,11 @@
             ],
             "cena": [
               {
-                "t": "Verduras variadas",
+                "t": "Sopa de estrellas",
                 "c": "cer"
               },
               {
-                "t": "Pollo plancha",
+                "t": "Pechuga de pavo",
                 "c": "cab"
               },
               {
@@ -531,23 +531,23 @@
                 "c": "psb"
               },
               {
-                "t": "Fruta",
+                "t": "Postre",
                 "c": "fru"
               }
             ],
             "merienda": [
               {
-                "t": "Tortitas maíz",
-                "c": "cer"
+                "t": "Merienda",
+                "c": "mer"
               }
             ],
             "cena": [
               {
-                "t": "Calabacín",
+                "t": "Crema de guisantes",
                 "c": "verd"
               },
               {
-                "t": "Tortilla francesa con calabacín",
+                "t": "Huevo duro con tomate",
                 "c": "hue"
               },
               {
@@ -559,12 +559,12 @@
           "adultos": {
             "comida": [
               {
-                "t": "Verduras variadas",
-                "c": "verd"
+                "t": "Macarrones con tomate",
+                "c": "cer"
               },
               {
-                "t": "Ensalada cus cus y queso",
-                "c": "cer"
+                "t": "Merluza con pimientos",
+                "c": "psb"
               },
               {
                 "t": "",
@@ -573,11 +573,11 @@
             ],
             "cena": [
               {
-                "t": "Calabacín",
+                "t": "Crema guisantes",
                 "c": "verd"
               },
               {
-                "t": "Tortilla francesa con calabacín",
+                "t": "Huevo duro",
                 "c": "hue"
               },
               {
@@ -602,23 +602,23 @@
                 "c": "cab"
               },
               {
-                "t": "Fruta",
+                "t": "Postre",
                 "c": "fru"
               }
             ],
             "merienda": [
               {
-                "t": "Batido fresquito",
-                "c": "fru"
+                "t": "Merienda",
+                "c": "mer"
               }
             ],
             "cena": [
               {
-                "t": "Arroz",
+                "t": "Arroz con verduras",
                 "c": "cer"
               },
               {
-                "t": "Salmón",
+                "t": "Salmón a la plancha",
                 "c": "psa"
               },
               {
@@ -644,11 +644,11 @@
             ],
             "cena": [
               {
-                "t": "Arroz",
+                "t": "Arroz con verduras",
                 "c": "cer"
               },
               {
-                "t": "Salmón",
+                "t": "Salmón a la plancha",
                 "c": "psa"
               },
               {
@@ -673,24 +673,24 @@
                 "c": "psb"
               },
               {
-                "t": "Fruta",
+                "t": "Postre",
                 "c": "fru"
               }
             ],
             "merienda": [
               {
-                "t": "Fruta Mirasierra",
-                "c": "fru"
+                "t": "Merienda",
+                "c": "mer"
               }
             ],
             "cena": [
               {
-                "t": "Verduras",
-                "c": "verd"
+                "t": "Pizza casera",
+                "c": "piz"
               },
               {
-                "t": "Carne blanca",
-                "c": "cab"
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "Yogur",
@@ -715,12 +715,12 @@
             ],
             "cena": [
               {
-                "t": "Verduras",
-                "c": "verd"
+                "t": "Pizza casera (SG)",
+                "c": "piz"
               },
               {
-                "t": "Carne blanca",
-                "c": "cab"
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "",
@@ -736,32 +736,32 @@
           "familia": {
             "comida": [
               {
-                "t": "Cereales",
+                "t": "Arroz 3 delicias",
                 "c": "cer"
               },
               {
-                "t": "Pescado blanco",
-                "c": "psb"
+                "t": "Filete de ternera",
+                "c": "car"
               },
               {
-                "t": "Fruta",
+                "t": "Postre",
                 "c": "fru"
               }
             ],
             "merienda": [
               {
-                "t": "Fruta variada",
-                "c": "fru"
+                "t": "Merienda",
+                "c": "mer"
               }
             ],
             "cena": [
               {
-                "t": "Verduras",
+                "t": "Ensalada",
                 "c": "verd"
               },
               {
-                "t": "Pescado azul",
-                "c": "psa"
+                "t": "Hamburguesa casera",
+                "c": "car"
               },
               {
                 "t": "Yogur",
@@ -777,36 +777,1860 @@
           "familia": {
             "comida": [
               {
-                "t": "Verdudas + arroz",
+                "t": "Pollo al curry con arroz",
+                "c": "cab"
+              },
+              {
+                "t": "Verduras al vapor",
                 "c": "verd"
               },
               {
-                "t": "Lomitos",
-                "c": "car"
-              },
-              {
-                "t": "Fruta",
+                "t": "Postre",
                 "c": "fru"
               }
             ],
             "merienda": [
               {
-                "t": "Fruta variada",
-                "c": "fru"
+                "t": "Merienda",
+                "c": "mer"
               }
             ],
             "cena": [
               {
-                "t": "Verduras",
+                "t": "Gazpacho",
                 "c": "verd"
               },
               {
-                "t": "Huevos",
+                "t": "Tortilla francesa",
                 "c": "hue"
               },
               {
                 "t": "Yogur",
                 "c": "lac"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "8 jun al 14 jun",
+      "dias": [
+        {
+          "dow": "Lun",
+          "date": "8",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Arroz tres delicias",
+                "c": "cer"
+              },
+              {
+                "t": "Carrillada de cerdo con zanahoria",
+                "c": "car"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Mar",
+          "date": "9",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Garbanzos estofados",
+                "c": "leg"
+              },
+              {
+                "t": "Albóndigas en salsa con verduras",
+                "c": "car"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Mie",
+          "date": "10",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Judías verdes con zanahoria",
+                "c": "verd"
+              },
+              {
+                "t": "Tortilla de patatas",
+                "c": "hue"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Jue",
+          "date": "11",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Espirales boloñesa",
+                "c": "cer"
+              },
+              {
+                "t": "Merluza con verduras",
+                "c": "psb"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Vie",
+          "date": "12",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Alubias pintas con verduras",
+                "c": "leg"
+              },
+              {
+                "t": "Pollo al limón con arroz",
+                "c": "cab"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne roja",
+                "c": "car",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne roja",
+                "c": "car",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne roja",
+                "c": "car",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Sab",
+          "date": "13",
+          "month": "jun",
+          "familia": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Pescado blanco",
+                "c": "psb",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Dom",
+          "date": "14",
+          "month": "jun",
+          "familia": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Pescado blanco",
+                "c": "psb",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "15 jun al 21 jun",
+      "dias": [
+        {
+          "dow": "Lun",
+          "date": "15",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Crema de zanahoria",
+                "c": "verd"
+              },
+              {
+                "t": "Magro de cerdo con verduras",
+                "c": "car"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Mar",
+          "date": "16",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Patatas guisadas con verduras",
+                "c": "verd"
+              },
+              {
+                "t": "Merluza a la vasca",
+                "c": "psb"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Mie",
+          "date": "17",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Lentejas estofadas con verduras",
+                "c": "leg"
+              },
+              {
+                "t": "Tortilla española",
+                "c": "hue"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Jue",
+          "date": "18",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Arroz con verduras",
+                "c": "cer"
+              },
+              {
+                "t": "Albóndigas en salsa con verduras",
+                "c": "car"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Vie",
+          "date": "19",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Espirales con verduras",
+                "c": "cer"
+              },
+              {
+                "t": "Rotty de pavo en salsa con patatas",
+                "c": "cab"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne roja",
+                "c": "car",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne roja",
+                "c": "car",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne roja",
+                "c": "car",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Sab",
+          "date": "20",
+          "month": "jun",
+          "familia": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Pescado blanco",
+                "c": "psb",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Dom",
+          "date": "21",
+          "month": "jun",
+          "familia": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Pescado blanco",
+                "c": "psb",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "22 jun al 28 jun",
+      "dias": [
+        {
+          "dow": "Lun",
+          "date": "22",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Arroz con tomate",
+                "c": "cer"
+              },
+              {
+                "t": "Bacalao rebozado con zanahoria",
+                "c": "psb"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Mar",
+          "date": "23",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Crema de verduras",
+                "c": "verd"
+              },
+              {
+                "t": "Pollo con patatas",
+                "c": "cab"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne roja",
+                "c": "car",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne roja",
+                "c": "car",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne roja",
+                "c": "car",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Mie",
+          "date": "24",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Lentejas a la hortelana",
+                "c": "leg"
+              },
+              {
+                "t": "Tortilla paisana",
+                "c": "hue"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Jue",
+          "date": "25",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Macarrones a la napolitana",
+                "c": "cer"
+              },
+              {
+                "t": "Merluza con calabaza",
+                "c": "psb"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Vie",
+          "date": "26",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Menestra de verduras",
+                "c": "verd"
+              },
+              {
+                "t": "Carrillada de cerdo con champiñones",
+                "c": "car"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Sab",
+          "date": "27",
+          "month": "jun",
+          "familia": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Pescado blanco",
+                "c": "psb",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Dom",
+          "date": "28",
+          "month": "jun",
+          "familia": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Pescado blanco",
+                "c": "psb",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "29 jun al 5 jul",
+      "dias": [
+        {
+          "dow": "Lun",
+          "date": "29",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Crema de calabaza",
+                "c": "verd"
+              },
+              {
+                "t": "Tortilla francesa de patatas",
+                "c": "hue"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Mar",
+          "date": "30",
+          "month": "jun",
+          "ninos": {
+            "comida": [
+              {
+                "t": "Sopa de estrellas",
+                "c": "cer"
+              },
+              {
+                "t": "Filete de pollo con patatas",
+                "c": "cab"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne roja",
+                "c": "car",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne roja",
+                "c": "car",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne roja",
+                "c": "car",
+                "suggested": true
+              },
+              {
+                "t": "",
+                "c": "empty"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Mie",
+          "date": "1",
+          "month": "jul",
+          "familia": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Pescado blanco",
+                "c": "psb",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Jue",
+          "date": "2",
+          "month": "jul",
+          "familia": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Pescado blanco",
+                "c": "psb",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Vie",
+          "date": "3",
+          "month": "jul",
+          "familia": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Pescado blanco",
+                "c": "psb",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Sab",
+          "date": "4",
+          "month": "jul",
+          "familia": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Pescado blanco",
+                "c": "psb",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          }
+        },
+        {
+          "dow": "Dom",
+          "date": "5",
+          "month": "jul",
+          "familia": {
+            "comida": [
+              {
+                "t": "Verduras",
+                "c": "verd",
+                "suggested": true
+              },
+              {
+                "t": "Carne blanca",
+                "c": "cab",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ],
+            "merienda": [
+              {
+                "t": "Merienda",
+                "c": "mer"
+              }
+            ],
+            "cena": [
+              {
+                "t": "Legumbres",
+                "c": "leg",
+                "suggested": true
+              },
+              {
+                "t": "Pescado blanco",
+                "c": "psb",
+                "suggested": true
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
               }
             ]
           }
@@ -820,22 +2644,22 @@
       "items": [
         {
           "n": "Cinta de lomo",
-          "store": "CarnicerÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+          "store": "Carnicería",
           "checked": false
         },
         {
           "n": "Pollo (dados)",
-          "store": "CarnicerÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+          "store": "Carnicería",
           "checked": false
         },
         {
           "n": "Pavo",
-          "store": "CarnicerÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+          "store": "Carnicería",
           "checked": false
         },
         {
           "n": "Carne roja fin de semana",
-          "store": "CarnicerÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+          "store": "Carnicería",
           "checked": false
         }
       ]
@@ -854,33 +2678,33 @@
           "checked": false
         },
         {
-          "n": "SalmÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
+          "n": "Salmón",
           "store": "Mercadona",
           "checked": false
         }
       ]
     },
     {
-      "cat": "Huevos y lÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡cteos",
+      "cat": "Huevos y lácteos",
       "items": [
         {
           "n": "Huevos (x12)",
-          "store": "DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+          "store": "Día",
           "checked": false
         },
         {
           "n": "Yogures naturales",
-          "store": "DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+          "store": "Día",
           "checked": false
         },
         {
-          "n": "JamÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n york",
-          "store": "DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+          "n": "Jamón york",
+          "store": "Día",
           "checked": false
         },
         {
           "n": "Queso",
-          "store": "DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+          "store": "Día",
           "checked": false
         }
       ]
@@ -890,27 +2714,27 @@
       "items": [
         {
           "n": "Patatas",
-          "store": "FruterÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+          "store": "Frutería",
           "checked": false
         },
         {
-          "n": "CalabacÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­n",
-          "store": "FruterÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+          "n": "Calabacín",
+          "store": "Frutería",
           "checked": false
         },
         {
           "n": "Calabaza",
-          "store": "FruterÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+          "store": "Frutería",
           "checked": false
         },
         {
           "n": "Pimiento",
-          "store": "FruterÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+          "store": "Frutería",
           "checked": false
         },
         {
           "n": "Zanahoria",
-          "store": "FruterÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+          "store": "Frutería",
           "checked": false
         },
         {
@@ -919,13 +2743,13 @@
           "checked": false
         },
         {
-          "n": "JudÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­as blancas (bote)",
+          "n": "Judías blancas (bote)",
           "store": "Mercadona",
           "checked": false
         },
         {
           "n": "Tomate",
-          "store": "FruterÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+          "store": "Frutería",
           "checked": false
         }
       ]
@@ -949,7 +2773,7 @@
           "checked": false
         },
         {
-          "n": "Tortitas de maÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­z",
+          "n": "Tortitas de maíz",
           "store": "Costco",
           "checked": false
         }
@@ -960,7 +2784,7 @@
       "items": [
         {
           "n": "Fruta variada",
-          "store": "FruterÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+          "store": "Frutería",
           "checked": false
         }
       ]
@@ -968,7 +2792,7 @@
   ],
   "starSet": [
     "Verduras|Menestra",
-    "Verduras|Crema calabacÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­n",
+    "Verduras|Crema calabacÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­n",
     "Verduras|Crema calabaza",
     "Huevos|Tortilla francesa",
     "Huevos|Tortilla patata",
@@ -979,21 +2803,21 @@
     "Cereales|Pizza casera",
     "Cereales|Croquetas",
     "Pescado blanco|Merluza",
-    "Pescado azul|SalmÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
+    "Pescado azul|SalmÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³n",
     "Carne blanca|Pollo plancha",
     "Carne blanca|Pollo al curry",
     "Carne roja|Burguer",
-    "Carne roja|BoloÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±esa",
-    "Carne roja|AlbÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³ndigas"
+    "Carne roja|BoloÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±esa",
+    "Carne roja|AlbÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ³ndigas"
   ],
   "mealStars": [],
   "ideaExtras": {},
   "stores": [
-    "FruterÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
-    "CarnicerÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+    "FruterÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+    "CarnicerÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
     "Mercadona",
-    "DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
+    "DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
     "Costco"
   ],
-  "savedAt": "2026-06-02T07:23:25.283Z"
+  "savedAt": "2026-06-13T09:15:00.403Z"
 }
