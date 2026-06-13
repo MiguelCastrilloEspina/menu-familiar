@@ -843,14 +843,12 @@
             ],
             "cena": [
               {
-                "t": "Verduras",
-                "c": "verd",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "Postre",
@@ -861,14 +859,12 @@
           "adultos": {
             "comida": [
               {
-                "t": "Verduras",
-                "c": "verd",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "",
@@ -877,14 +873,12 @@
             ],
             "cena": [
               {
-                "t": "Verduras",
-                "c": "verd",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "",
@@ -920,14 +914,12 @@
             ],
             "cena": [
               {
-                "t": "Verduras",
-                "c": "verd",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "Postre",
@@ -938,14 +930,12 @@
           "adultos": {
             "comida": [
               {
-                "t": "Verduras",
-                "c": "verd",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "",
@@ -954,14 +944,12 @@
             ],
             "cena": [
               {
-                "t": "Verduras",
-                "c": "verd",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "",
@@ -997,14 +985,12 @@
             ],
             "cena": [
               {
-                "t": "Legumbres",
-                "c": "leg",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "Postre",
@@ -1015,14 +1001,12 @@
           "adultos": {
             "comida": [
               {
-                "t": "Legumbres",
-                "c": "leg",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "",
@@ -1031,14 +1015,12 @@
             ],
             "cena": [
               {
-                "t": "Legumbres",
-                "c": "leg",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "",
@@ -1074,14 +1056,12 @@
             ],
             "cena": [
               {
-                "t": "Verduras",
-                "c": "verd",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "Postre",
@@ -1092,14 +1072,12 @@
           "adultos": {
             "comida": [
               {
-                "t": "Verduras",
-                "c": "verd",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "",
@@ -1108,14 +1086,12 @@
             ],
             "cena": [
               {
-                "t": "Verduras",
-                "c": "verd",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "",
@@ -1151,14 +1127,12 @@
             ],
             "cena": [
               {
-                "t": "Verduras",
-                "c": "verd",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Carne roja",
-                "c": "car",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "Postre",
@@ -1169,14 +1143,12 @@
           "adultos": {
             "comida": [
               {
-                "t": "Verduras",
-                "c": "verd",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Carne roja",
-                "c": "car",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "",
@@ -1185,14 +1157,12 @@
             ],
             "cena": [
               {
-                "t": "Verduras",
-                "c": "verd",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Carne roja",
-                "c": "car",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "",
@@ -1208,14 +1178,12 @@
           "familia": {
             "comida": [
               {
-                "t": "Verduras",
-                "c": "verd",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "Postre",
@@ -1230,14 +1198,12 @@
             ],
             "cena": [
               {
-                "t": "Legumbres",
-                "c": "leg",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Pescado blanco",
-                "c": "psb",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "Postre",
@@ -1253,14 +1219,12 @@
           "familia": {
             "comida": [
               {
-                "t": "Verduras",
-                "c": "verd",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "Postre",
@@ -1275,14 +1239,12 @@
             ],
             "cena": [
               {
-                "t": "Legumbres",
-                "c": "leg",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Pescado blanco",
-                "c": "psb",
-                "suggested": true
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "Postre",
@@ -1808,8 +1770,8 @@
                 "suggested": true
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
+                "t": "Huevos",
+                "c": "hue",
                 "suggested": true
               },
               {
@@ -1821,8 +1783,8 @@
           "adultos": {
             "comida": [
               {
-                "t": "Verduras",
-                "c": "verd",
+                "t": "Cereales",
+                "c": "cer",
                 "suggested": true
               },
               {
@@ -1842,8 +1804,8 @@
                 "suggested": true
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
+                "t": "Huevos",
+                "c": "hue",
                 "suggested": true
               },
               {
@@ -1880,13 +1842,13 @@
             ],
             "cena": [
               {
-                "t": "Legumbres",
-                "c": "leg",
+                "t": "Cereales",
+                "c": "cer",
                 "suggested": true
               },
               {
-                "t": "Carne roja",
-                "c": "car",
+                "t": "Huevos",
+                "c": "hue",
                 "suggested": true
               },
               {
@@ -1898,13 +1860,13 @@
           "adultos": {
             "comida": [
               {
-                "t": "Legumbres",
-                "c": "leg",
+                "t": "Verduras",
+                "c": "verd",
                 "suggested": true
               },
               {
-                "t": "Carne roja",
-                "c": "car",
+                "t": "Carne blanca",
+                "c": "cab",
                 "suggested": true
               },
               {
@@ -1914,13 +1876,13 @@
             ],
             "cena": [
               {
-                "t": "Legumbres",
-                "c": "leg",
+                "t": "Cereales",
+                "c": "cer",
                 "suggested": true
               },
               {
-                "t": "Carne roja",
-                "c": "car",
+                "t": "Huevos",
+                "c": "hue",
                 "suggested": true
               },
               {
@@ -1962,8 +1924,8 @@
                 "suggested": true
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
+                "t": "Carne roja",
+                "c": "car",
                 "suggested": true
               },
               {
@@ -1975,13 +1937,13 @@
           "adultos": {
             "comida": [
               {
-                "t": "Verduras",
-                "c": "verd",
+                "t": "Cereales",
+                "c": "cer",
                 "suggested": true
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
+                "t": "Pescado blanco",
+                "c": "psb",
                 "suggested": true
               },
               {
@@ -1996,8 +1958,8 @@
                 "suggested": true
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
+                "t": "Carne roja",
+                "c": "car",
                 "suggested": true
               },
               {
@@ -2039,8 +2001,8 @@
                 "suggested": true
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
+                "t": "Pescado azul",
+                "c": "psa",
                 "suggested": true
               },
               {
@@ -2052,13 +2014,13 @@
           "adultos": {
             "comida": [
               {
-                "t": "Verduras",
-                "c": "verd",
+                "t": "Cereales",
+                "c": "cer",
                 "suggested": true
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
+                "t": "Huevos",
+                "c": "hue",
                 "suggested": true
               },
               {
@@ -2073,8 +2035,8 @@
                 "suggested": true
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
+                "t": "Pescado azul",
+                "c": "psa",
                 "suggested": true
               },
               {
@@ -2129,13 +2091,13 @@
           "adultos": {
             "comida": [
               {
-                "t": "Legumbres",
-                "c": "leg",
+                "t": "Verduras",
+                "c": "verd",
                 "suggested": true
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
+                "t": "Carne roja",
+                "c": "car",
                 "suggested": true
               },
               {
@@ -2168,13 +2130,13 @@
           "familia": {
             "comida": [
               {
-                "t": "Verduras",
-                "c": "verd",
+                "t": "Cereales",
+                "c": "cer",
                 "suggested": true
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
+                "t": "Pescado blanco",
+                "c": "psb",
                 "suggested": true
               },
               {
@@ -2190,18 +2152,18 @@
             ],
             "cena": [
               {
-                "t": "Legumbres",
-                "c": "leg",
+                "t": "Verduras",
+                "c": "verd",
                 "suggested": true
               },
               {
-                "t": "Pescado blanco",
-                "c": "psb",
+                "t": "Pescado azul",
+                "c": "psa",
                 "suggested": true
               },
               {
-                "t": "Postre",
-                "c": "fru"
+                "t": "Lácteos",
+                "c": "lac"
               }
             ]
           }
@@ -2213,13 +2175,13 @@
           "familia": {
             "comida": [
               {
-                "t": "Verduras",
-                "c": "verd",
+                "t": "Legumbres",
+                "c": "leg",
                 "suggested": true
               },
               {
-                "t": "Carne blanca",
-                "c": "cab",
+                "t": "Huevos",
+                "c": "hue",
                 "suggested": true
               },
               {
@@ -2235,18 +2197,18 @@
             ],
             "cena": [
               {
-                "t": "Legumbres",
-                "c": "leg",
+                "t": "Cereales",
+                "c": "cer",
                 "suggested": true
               },
               {
-                "t": "Pescado blanco",
-                "c": "psb",
+                "t": "Carne blanca",
+                "c": "cab",
                 "suggested": true
               },
               {
-                "t": "Postre",
-                "c": "fru"
+                "t": "Lácteos",
+                "c": "lac"
               }
             ]
           }
@@ -2792,7 +2754,7 @@
   ],
   "starSet": [
     "Verduras|Menestra",
-    "Verduras|Crema calabacín",
+    "Verduras|Crema calabacÃ­n",
     "Verduras|Crema calabaza",
     "Huevos|Tortilla francesa",
     "Huevos|Tortilla patata",
@@ -2803,21 +2765,21 @@
     "Cereales|Pizza casera",
     "Cereales|Croquetas",
     "Pescado blanco|Merluza",
-    "Pescado azul|Salmón",
+    "Pescado azul|SalmÃ³n",
     "Carne blanca|Pollo plancha",
     "Carne blanca|Pollo al curry",
     "Carne roja|Burguer",
-    "Carne roja|Boloñesa",
-    "Carne roja|Albóndigas"
+    "Carne roja|BoloÃ±esa",
+    "Carne roja|AlbÃ³ndigas"
   ],
   "mealStars": [],
   "ideaExtras": {},
   "stores": [
-    "Frutería",
-    "Carnicería",
+    "FruterÃ­a",
+    "CarnicerÃ­a",
     "Mercadona",
-    "Día",
+    "DÃ­a",
     "Costco"
   ],
-  "savedAt": "2026-06-13T09:24:04.316Z"
+  "savedAt": "2026-06-13T09:36:06.927Z"
 }
