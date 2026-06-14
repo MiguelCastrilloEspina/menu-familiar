@@ -1331,8 +1331,8 @@
                 "c": "hue"
               },
               {
-                "t": "Postre",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           },
@@ -1353,12 +1353,12 @@
             ],
             "cena": [
               {
-                "t": "",
-                "c": "empty"
+                "t": "Periñaca",
+                "c": "verd"
               },
               {
-                "t": "",
-                "c": "empty"
+                "t": "Huevo duro",
+                "c": "hue"
               },
               {
                 "t": "",
@@ -1394,16 +1394,16 @@
             ],
             "cena": [
               {
-                "t": "",
-                "c": "empty"
+                "t": "Salsa de verduras",
+                "c": "verd"
               },
               {
-                "t": "",
-                "c": "empty"
+                "t": "Estofado de ternera",
+                "c": "car"
               },
               {
-                "t": "Postre",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           },
@@ -1473,8 +1473,8 @@
                 "c": "empty"
               },
               {
-                "t": "Postre",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           },
@@ -1544,8 +1544,8 @@
                 "c": "psb"
               },
               {
-                "t": "Postre",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           },
@@ -1615,8 +1615,8 @@
                 "c": "cer"
               },
               {
-                "t": "Postre",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           },
@@ -1718,8 +1718,8 @@
                 "c": "empty"
               },
               {
-                "t": "Postre",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           }
@@ -1771,12 +1771,12 @@
                 "c": "empty"
               },
               {
-                "t": "",
-                "c": "empty"
+                "t": "Tortilla francesa",
+                "c": "hue"
               },
               {
-                "t": "Postre",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           },
@@ -2818,7 +2818,7 @@
   ],
   "starSet": [
     "Verduras|Menestra",
-    "Verduras|Crema calabacÃÂÃÂ­n",
+    "Verduras|Crema calabacÃÂÃÂÃÂÃÂ­n",
     "Verduras|Crema calabaza",
     "Huevos|Tortilla francesa",
     "Huevos|Tortilla patata",
@@ -2829,21 +2829,21 @@
     "Cereales|Pizza casera",
     "Cereales|Croquetas",
     "Pescado blanco|Merluza",
-    "Pescado azul|SalmÃÂÃÂ³n",
+    "Pescado azul|SalmÃÂÃÂÃÂÃÂ³n",
     "Carne blanca|Pollo plancha",
     "Carne blanca|Pollo al curry",
     "Carne roja|Burguer",
-    "Carne roja|BoloÃÂÃÂ±esa",
-    "Carne roja|AlbÃÂÃÂ³ndigas"
+    "Carne roja|BoloÃÂÃÂÃÂÃÂ±esa",
+    "Carne roja|AlbÃÂÃÂÃÂÃÂ³ndigas"
   ],
   "mealStars": [],
   "ideaExtras": {},
   "stores": [
-    "FruterÃÂÃÂ­a",
-    "CarnicerÃÂÃÂ­a",
+    "FruterÃÂÃÂÃÂÃÂ­a",
+    "CarnicerÃÂÃÂÃÂÃÂ­a",
     "Mercadona",
-    "DÃÂÃÂ­a",
+    "DÃÂÃÂÃÂÃÂ­a",
     "Costco"
   ],
-  "savedAt": "2026-06-14T20:37:04.003Z"
+  "savedAt": "2026-06-14T20:38:59.847Z"
 }
