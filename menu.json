@@ -1465,12 +1465,12 @@
             ],
             "cena": [
               {
-                "t": "",
-                "c": "empty"
+                "t": "Verduras varias",
+                "c": "verd"
               },
               {
-                "t": "",
-                "c": "empty"
+                "t": "Ensalada de pasta",
+                "c": "cer"
               },
               {
                 "t": "Yogur",
@@ -1662,8 +1662,8 @@
                 "c": "empty"
               },
               {
-                "t": "",
-                "c": "empty"
+                "t": "Ensaladilla rusa",
+                "c": "verd"
               },
               {
                 "t": "Postre",
@@ -1720,6 +1720,20 @@
               {
                 "t": "Yogur",
                 "c": "lac"
+              }
+            ],
+            "comida": [
+              {
+                "t": "",
+                "c": "empty"
+              },
+              {
+                "t": "Ensaladilla rusa",
+                "c": "verd"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
               }
             ]
           }
@@ -2845,5 +2859,5 @@
     "DÃÂÃÂÃÂÃÂ­a",
     "Costco"
   ],
-  "savedAt": "2026-06-14T20:40:56.459Z"
+  "savedAt": "2026-06-14T20:41:52.624Z"
 }
