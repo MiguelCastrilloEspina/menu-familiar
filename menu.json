@@ -1293,8 +1293,8 @@
                 "c": "empty"
               },
               {
-                "t": "Postre",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           },
@@ -1364,8 +1364,8 @@
                 "c": "empty"
               },
               {
-                "t": "Postre",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           },
@@ -1394,8 +1394,8 @@
                 "c": "empty"
               },
               {
-                "t": "",
-                "c": "empty"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           }
@@ -1435,8 +1435,8 @@
                 "c": "empty"
               },
               {
-                "t": "Postre",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           },
@@ -1506,8 +1506,8 @@
                 "c": "empty"
               },
               {
-                "t": "Postre",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           },
@@ -1577,8 +1577,8 @@
                 "c": "empty"
               },
               {
-                "t": "Postre",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           },
@@ -1607,8 +1607,8 @@
                 "c": "empty"
               },
               {
-                "t": "",
-                "c": "empty"
+                "t": "Postre",
+                "c": "fru"
               }
             ]
           }
@@ -1628,8 +1628,8 @@
                 "c": "empty"
               },
               {
-                "t": "Postre",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ],
             "merienda": [
@@ -1689,8 +1689,8 @@
                 "c": "empty"
               },
               {
-                "t": "Postre",
-                "c": "fru"
+                "t": "Yogur",
+                "c": "lac"
               }
             ]
           }
@@ -2743,5 +2743,5 @@
     "DÃ­a",
     "Costco"
   ],
-  "savedAt": "2026-06-14T19:59:08.122Z"
+  "savedAt": "2026-06-14T20:06:30.477Z"
 }
