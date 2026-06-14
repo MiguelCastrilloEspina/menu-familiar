@@ -1317,8 +1317,8 @@
             ],
             "merienda": [
               {
-                "t": "Merienda",
-                "c": "mer"
+                "t": "Plátano",
+                "c": "fru"
               }
             ],
             "cena": [
@@ -1465,12 +1465,12 @@
             ],
             "cena": [
               {
-                "t": "Verduras varias",
-                "c": "verd"
-              },
-              {
                 "t": "Ensalada de pasta",
                 "c": "cer"
+              },
+              {
+                "t": "Pollo plancha",
+                "c": "cab"
               },
               {
                 "t": "Yogur",
@@ -1536,11 +1536,11 @@
             ],
             "cena": [
               {
-                "t": "",
-                "c": "empty"
+                "t": "Ensalada de pasta",
+                "c": "cer"
               },
               {
-                "t": "Merluza",
+                "t": "Merluza rebozada",
                 "c": "psb"
               },
               {
@@ -1607,8 +1607,8 @@
             ],
             "cena": [
               {
-                "t": "",
-                "c": "empty"
+                "t": "Tomate de pizza especial",
+                "c": "verd"
               },
               {
                 "t": "Pizza casera",
@@ -2873,5 +2873,5 @@
     "DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
     "Costco"
   ],
-  "savedAt": "2026-06-14T21:02:50.312Z"
+  "savedAt": "2026-06-14T21:07:40.418Z"
 }
