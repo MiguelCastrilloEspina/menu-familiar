@@ -1682,8 +1682,24 @@
                 "c": "empty"
               },
               {
-                "t": "Pizza casera",
-                "c": "cer"
+                "t": "",
+                "c": "empty"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
+              }
+            ]
+          },
+          "adultos": {
+            "cena": [
+              {
+                "t": "",
+                "c": "empty"
+              },
+              {
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "Postre",
@@ -2754,7 +2770,7 @@
   ],
   "starSet": [
     "Verduras|Menestra",
-    "Verduras|Crema calabacÃÂ­n",
+    "Verduras|Crema calabacÃÂÃÂ­n",
     "Verduras|Crema calabaza",
     "Huevos|Tortilla francesa",
     "Huevos|Tortilla patata",
@@ -2765,21 +2781,21 @@
     "Cereales|Pizza casera",
     "Cereales|Croquetas",
     "Pescado blanco|Merluza",
-    "Pescado azul|SalmÃÂ³n",
+    "Pescado azul|SalmÃÂÃÂ³n",
     "Carne blanca|Pollo plancha",
     "Carne blanca|Pollo al curry",
     "Carne roja|Burguer",
-    "Carne roja|BoloÃÂ±esa",
-    "Carne roja|AlbÃÂ³ndigas"
+    "Carne roja|BoloÃÂÃÂ±esa",
+    "Carne roja|AlbÃÂÃÂ³ndigas"
   ],
   "mealStars": [],
   "ideaExtras": {},
   "stores": [
-    "FruterÃÂ­a",
-    "CarnicerÃÂ­a",
+    "FruterÃÂÃÂ­a",
+    "CarnicerÃÂÃÂ­a",
     "Mercadona",
-    "DÃÂ­a",
+    "DÃÂÃÂ­a",
     "Costco"
   ],
-  "savedAt": "2026-06-14T20:35:43.158Z"
+  "savedAt": "2026-06-14T20:36:00.234Z"
 }
