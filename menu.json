@@ -1356,12 +1356,12 @@
             ],
             "cena": [
               {
-                "t": "",
-                "c": "empty"
+                "t": "Salsa de verduras",
+                "c": "verd"
               },
               {
-                "t": "",
-                "c": "empty"
+                "t": "Estofado de ternera",
+                "c": "car"
               },
               {
                 "t": "Yogur",
@@ -1502,8 +1502,8 @@
                 "c": "empty"
               },
               {
-                "t": "",
-                "c": "empty"
+                "t": "Merluza",
+                "c": "psb"
               },
               {
                 "t": "Yogur",
@@ -1573,8 +1573,8 @@
                 "c": "empty"
               },
               {
-                "t": "",
-                "c": "empty"
+                "t": "Tortilla francesa",
+                "c": "hue"
               },
               {
                 "t": "Yogur",
@@ -1644,8 +1644,8 @@
                 "c": "empty"
               },
               {
-                "t": "",
-                "c": "empty"
+                "t": "Pizza casera",
+                "c": "cer"
               },
               {
                 "t": "Postre",
@@ -2743,5 +2743,5 @@
     "DÃ­a",
     "Costco"
   ],
-  "savedAt": "2026-06-14T20:06:30.477Z"
+  "savedAt": "2026-06-14T20:12:46.441Z"
 }
