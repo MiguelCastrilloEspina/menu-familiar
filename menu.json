@@ -1999,12 +1999,12 @@
             ],
             "cena": [
               {
-                "t": "Arroz",
-                "c": "cer"
+                "t": "",
+                "c": "empty"
               },
               {
-                "t": "Dados de pollo",
-                "c": "cab"
+                "t": "",
+                "c": "empty"
               },
               {
                 "t": "Yogur",
@@ -2192,12 +2192,12 @@
           "familia": {
             "comida": [
               {
-                "t": "",
-                "c": "empty"
+                "t": "Arroz",
+                "c": "cer"
               },
               {
-                "t": "",
-                "c": "empty"
+                "t": "Dados de pollo",
+                "c": "cab"
               },
               {
                 "t": "Postre",
@@ -2238,6 +2238,20 @@
               {
                 "t": "Yogur",
                 "c": "lac"
+              }
+            ],
+            "comida": [
+              {
+                "t": "Arroz",
+                "c": "cer"
+              },
+              {
+                "t": "Dados de pollo",
+                "c": "cab"
+              },
+              {
+                "t": "Postre",
+                "c": "fru"
               }
             ]
           }
@@ -2345,7 +2359,7 @@
                 "c": "verd"
               },
               {
-                "t": "Tortilla francesa de patatas",
+                "t": "Tortilla francesa/de patatas",
                 "c": "hue"
               },
               {
@@ -2807,5 +2821,5 @@
     "DÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­a",
     "Costco"
   ],
-  "savedAt": "2026-06-22T16:56:43.764Z"
+  "savedAt": "2026-06-22T16:59:17.904Z"
 }
